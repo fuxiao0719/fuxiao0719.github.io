@@ -409,7 +409,7 @@ footer a:hover { color: #790808; }
 
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
 
-.pagination { font-size: 1rem; font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif; font-weight: 300; text-align: center; }
+.pagination { font-size: 1rem; font-family: "Times New Romans", serif; font-weight: 300; text-align: center; }
 
 .pagination a, .pagination .disabled { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; background: #fafafa; border-radius: 0.1875em; border: 1px solid #f3f3f3; color: #333333; padding: 1em 1.5em; }
 
