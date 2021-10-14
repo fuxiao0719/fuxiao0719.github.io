@@ -401,7 +401,7 @@ footer a:hover { color: #790808; }
 .news table tr { text-align: left; }
 .news table td { padding: 6px 0; vertical-align: top; border: none; }
 
-.social { text-align: center; }
+.social { text-align: right; }
 .social .contact-icons { font-size: 2rem; }
 .social .contact-icons a i::before { color: var(--global-text-color); -webkit-transition: all 0.2s ease-in-out; }
 .social .contact-icons a:hover i::before { color: var(--global-theme-color); }
@@ -512,7 +512,7 @@ article a:hover, .news a:hover { text-decoration: underline; }
 
 .measure { margin: 0 auto; max-width: 42rem; }
 
-.social-icons-left, .social-icons-right { text-align: center; float: none; }
+.social-icons-left, .social-icons-right { text-align: right; float: none; }
 
 .social-icons { font-size: 1.25rem; padding: 0.5em 0 0 0; width: 100%; }
 
