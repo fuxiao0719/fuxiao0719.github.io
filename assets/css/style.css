@@ -396,11 +396,18 @@ footer a:hover { color: #790808; }
 .news { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
 .news h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
 .news table {border-collapse: collapse; width: 100%; }
-/* .news table tbody {max-height: 100px; overflow-y: scroll; } */
 .news table .date { width: 19%; }
 .news table .announcement { width: 81%; }
 .news table tr { text-align: left; }
 .news table td { padding: 6px 0; vertical-align: top; border: none; }
+
+.honors { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
+.honors h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
+.honors table {border-collapse: collapse; width: 100%; }
+.honors table .date { width: 19%; }
+.honors table .announcement { width: 81%; }
+.honors table tr { text-align: left; }
+.honors table td { padding: 6px 0; vertical-align: top; border: none; }
 
 .social { text-align: left; }
 .social .contact-icons { font-size: 2rem; }
