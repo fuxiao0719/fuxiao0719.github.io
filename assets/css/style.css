@@ -512,11 +512,11 @@ figcaption { font-size: 0.875rem; }
 a { color: #333; text-decoration: none; }
 a:hover { color: #790808; text-decoration: none; }
 
-article a, .news a { color: #790808; font-weight: 100; }
+article a, .news a { color: #2698BA; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
 
 .social a { color: #333; }
-.social a:hover { color: #790808; }
+.social a:hover { color: #2698BA; }
 
 .measure { margin: 0 auto; max-width: 42rem; }
 
