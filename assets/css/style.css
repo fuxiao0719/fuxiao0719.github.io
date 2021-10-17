@@ -406,7 +406,7 @@ footer a:hover { color: #790808; }
 .honors table {border-collapse: collapse; width: 100%; }
 .honors table .name { width: 90%; }
 .honors table .date { width: 10%; }
-.honors table tr { text-align: center;}
+.honors table tr { text-align: left;}
 .honors table td { padding: 6px 0; vertical-align: top; border: none; }
 
 .social { text-align: left; }
