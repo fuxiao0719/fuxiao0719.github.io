@@ -404,9 +404,9 @@ footer a:hover { color: #790808; }
 .honors { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
 .honors h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
 .honors table {border-collapse: collapse; width: 100%; }
-.honors table .name { width: 90%;}
-.honors table .date { width: 10%;}
-.honors table tr { text-align: left; }
+.honors table .name { width: 95%;}
+.honors table .date { width: 5%; text-align: right;}
+.honors table tr { text-align: left;}
 .honors table td { padding: 6px 0; vertical-align: top; border: none; }
 
 .social { text-align: left; }
