@@ -405,7 +405,11 @@ footer a:hover { color: #790808; }
 .honors h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
 .honors table {border-collapse: collapse; width: 100%; }
 .honors table .name { width: 90%; text-align: left;}
+<<<<<<< HEAD
 .honors table .date { width: 10%; text-align: right;}
+=======
+.honors table .date { width: 10%; text-align: center;}
+>>>>>>> 88af51d206895b448d7ffdc7df7740a4cdd2a210
 /* .honors table tr { text-align: left;} */
 .honors table td { padding: 6px 0; vertical-align: top; border: none; }
 
