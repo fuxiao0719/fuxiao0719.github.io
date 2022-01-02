@@ -197,9 +197,18 @@
                 <br />
                 [<a href="https://ieeexplore.ieee.org/document/9569633">Paper</a>]
                 [<a href="https://github.com/fuxiao0719/PIMRC2021-DLDUNN">Code</a>]
-                <form>
-                  <input type="button" onclick="hidetext()" value="隐藏内容" /> 
-               </form>
+                <script type="text/javascript">
+                  var btn=document.getElementById("cl");
+                  btn.onclick=function(){
+                  var show=document.getElementById("list");
+                  if(show.style.display=="block"){
+                  show.style.display="none";
+                  }else
+                  {
+                  show.style.display="block";
+                  }
+                  }
+                  </script>
                 <br />
                 <strong>[Intro]</strong> Faster solution of an convex optimization algorithm(PDD) with a dual-layer NN
               </div>
