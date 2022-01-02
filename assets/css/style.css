@@ -25,6 +25,8 @@
 /* Basscss Base Buttons */
 
 
+:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #C85C5C; --global-hover-color: #C85C5C; --global-footer-bg-color: #1C1C1D; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; --global-divider-color: rgba(0,0,0,.1); }
+
 button, .button { font-family: Helvetica, sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; cursor: pointer; display: inline-block; box-sizing: border-box; line-height: 1.125rem; padding: 0.5rem 1rem; margin: 0; height: auto; border: 1px solid transparent; vertical-align: middle; -webkit-appearance: none; }
 
 ::-moz-focus-inner { border: 0; padding: 0; }
@@ -417,6 +419,7 @@ footer a:hover { color: #790808; }
 .social .contact-icons a:hover i::before { color: var(--global-theme-color); }
 .social .contact-note { font-size: 0.8rem; }
 
+
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
 
 .pagination { font-size: 1rem; font-family: "Times New Romans", serif; font-weight: 300; text-align: center; }
@@ -438,6 +441,10 @@ footer a:hover { color: #790808; }
 .button-disabled:hover, .button-disabled:active, .button-disabled:focus { cursor: not-allowed; background-color: #999; }
 
 .publications h2 { color: #790808; font-size: 32px; margin-bottom: 30px; text-align: center; }
+
+.projects div.abstract.hidden { border: dashed 1px var(--global-bg-color); }
+
+.projects div.abstract.hidden  div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .year { border-top: 1px solid #ccc; color: #ccc; margin: 0 -3em -2.5ex -2em; padding-top: 1ex; text-align: right; }
 
