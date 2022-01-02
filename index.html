@@ -12,19 +12,14 @@
   <!--   <link rel="shortcut icon" href="/assets/img/favicon.ico"> -->
   <link rel="stylesheet" href="/assets/css/style.css">
   <script type="text/javascript">
-    function fun(){
-         var ch=document.getElementById("s");
-         var val=document.getElementById("wen");
-         if(s.style.display='none'&&val.innerHTML=="展开")
-         {
-             s.style.display='block';
-             val.innerHTML="收起";
-         }
-         else{
-             s.style.display='none';
-             val.innerHTML="展开";
-         }
-    }
+function clickshow(element){
+	var _obj = document.getElementById(element);
+	if(_obj.style.display == 'block'){
+		_obj.style.display='none';
+	}else {
+		_obj.style.display='block';
+	}
+}
  </script>
 </head>
 
@@ -83,11 +78,11 @@
             <li>Convex Optimization</li>
           </ul>
           </p>
-          
-          <p οnclick="fun()" id="wen">展开</p>
-          <div id="s" style="display: none;width:300px;height:200px;background-color:#F2F2F2;">
-            本期公演环节，孟美岐带领小组成员张溪、江璟儿等演绎作品《撑腰》，青春洋溢的姑娘们，满脸的胶原蛋白，马甲线、大长腿，白纱裙配热裤，呈现出一种又美又仙的高级美，对台下眨一下眼，“电”倒无数。
-        </div>
+
+          <span onclick="clickshow('element');"></span>
+          <div id="element">
+            欢迎访问http://www.neirong.org!
+          </div>
 
           <div class="social">
             <div class="contact-icons">
