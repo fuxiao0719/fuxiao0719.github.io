@@ -11,24 +11,21 @@
   <meta name="author" content="fuxiao">
   <!--   <link rel="shortcut icon" href="/assets/img/favicon.ico"> -->
   <link rel="stylesheet" href="/assets/css/style.css">
-  <script type="text/javascript "> 
-  
-  function hidetext()  
-  {  
-    var mychar = document.getElementById("con");
-    var mychor=document.getElementById("cor");
-      mychar.style.display="none";
-      mychor.style.display="block";
-  }  
-
-  function showtext()  
-  {  
-   var mychar = document.getElementById("con");
-       var mychor=document.getElementById("cor");
-         mychar.style.display="block";
-        mychor.style.display="none";
-  }
-  </script> 
+  <script type="text/javascript">
+    function fun(){
+         var ch=document.getElementById("s");
+         var val=document.getElementById("wen");
+         if(s.style.display='none'&&val.innerHTML=="展开")
+         {
+             s.style.display='block';
+             val.innerHTML="收起";
+         }
+         else{
+             s.style.display='none';
+             val.innerHTML="展开";
+         }
+    }
+ </script>
 </head>
 
 <body>
@@ -86,6 +83,11 @@
             <li>Convex Optimization</li>
           </ul>
           </p>
+          
+          <p οnclick="fun()" id="wen">展开</p>
+          <div id="s" style="display: none;width:300px;height:200px;background-color:#F2F2F2;">
+            本期公演环节，孟美岐带领小组成员张溪、江璟儿等演绎作品《撑腰》，青春洋溢的姑娘们，满脸的胶原蛋白，马甲线、大长腿，白纱裙配热裤，呈现出一种又美又仙的高级美，对台下眨一下眼，“电”倒无数。
+        </div>
 
           <div class="social">
             <div class="contact-icons">
@@ -197,18 +199,7 @@
                 <br />
                 [<a href="https://ieeexplore.ieee.org/document/9569633">Paper</a>]
                 [<a href="https://github.com/fuxiao0719/PIMRC2021-DLDUNN">Code</a>]
-                <script type="text/javascript">
-                  var btn=document.getElementById("cl");
-                  btn.onclick=function(){
-                  var show=document.getElementById("list");
-                  if(show.style.display=="block"){
-                  show.style.display="none";
-                  }else
-                  {
-                  show.style.display="block";
-                  }
-                  }
-                  </script>
+
                 <br />
                 <strong>[Intro]</strong> Faster solution of an convex optimization algorithm(PDD) with a dual-layer NN
               </div>
