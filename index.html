@@ -11,6 +11,24 @@
   <meta name="author" content="fuxiao">
   <!--   <link rel="shortcut icon" href="/assets/img/favicon.ico"> -->
   <link rel="stylesheet" href="/assets/css/style.css">
+  <script type="text/javascript "> 
+  
+  function hidetext()  
+  {  
+    var mychar = document.getElementById("con");
+    var mychor=document.getElementById("cor");
+      mychar.style.display="none";
+      mychor.style.display="block";
+  }  
+
+  function showtext()  
+  {  
+   var mychar = document.getElementById("con");
+       var mychor=document.getElementById("cor");
+         mychar.style.display="block";
+        mychor.style.display="none";
+  }
+  </script> 
 </head>
 
 <body>
@@ -179,6 +197,9 @@
                 <br />
                 [<a href="https://ieeexplore.ieee.org/document/9569633">Paper</a>]
                 [<a href="https://github.com/fuxiao0719/PIMRC2021-DLDUNN">Code</a>]
+                <form>
+                  <input type="button" onclick="hidetext()" value="隐藏内容" /> 
+               </form>
                 <br />
                 <strong>[Intro]</strong> Faster solution of an convex optimization algorithm(PDD) with a dual-layer NN
               </div>
