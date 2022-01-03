@@ -494,7 +494,7 @@ figcaption { font-size: 0.875rem; }
 
 .blankbox { background: #790808; }
 
-.img_row { height: 180px; width: 100%; overflow: hidden; box-sizing: border-box; }
+.img_row { height: 200px; width: 100%; overflow: hidden; box-sizing: border-box; }
 
 .text_row { width: 100%; vertical-align: middle; }
 
@@ -502,9 +502,9 @@ figcaption { font-size: 0.875rem; }
 
 .profile_img { margin-left: 5ex; width: 30.0%; }
 
-.one { width: 33.3%; }
+.one { width: 40%; }
 
-.two { width: 66.7%; }
+.two { width: 60%; }
 
 .three { width: 100%; }
 
