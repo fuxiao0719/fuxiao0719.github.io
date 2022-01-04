@@ -120,12 +120,6 @@ a:hover { color: #790808; text-decoration: none; }
 article a, .news a { color: #0000CD; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
 
-table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
-table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
-table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333; }
-table > caption + thead > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
-table > tbody + tbody { border-top: 2px solid #333; }
-
 html { font-size: 16px; }
 
 body { color: #333; font-weight: 100; }
@@ -140,6 +134,13 @@ sup { position: relative; vertical-align: middle; top: -0.9ex; }
 
 /* Page Setting */
 .wrapper { max-width: -webkit-calc(1000px - (50px * 2)); max-width: calc(1000px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
+
+table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
+table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
+table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333; }
+table > caption + thead > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
+table > tbody + tbody { border-top: 2px solid #333; }
+
 
 /* site-header */
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
