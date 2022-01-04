@@ -71,8 +71,8 @@ table > tbody + tbody { border-top: 2px solid #333; }
 .social { text-align: left; }
 .social .contact-icons { font-size: 2rem; }
 /* .social .contact-icons a i::before { color: var(--global-text-color); -webkit-transition: all 0.2s ease-in-out; }
-.social .contact-icons a:hover i::before { color: var(--global-theme-color); }
-.social .contact-note { font-size: 0.8rem; } */
+.social .contact-icons a:hover i::before { color: var(--global-theme-color); } */
+.social .contact-note { font-size: 0.8rem; }
 .social a { color: #333; }
 .social a:hover { color: #0000CD; }
 
