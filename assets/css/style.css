@@ -2,58 +2,6 @@
 
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%; }
 
-a { color: #2698BA; text-decoration: none; }
-
-hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ccc; }
-
-.dark-gray { color: #333; }
-
-.white { color: white; }
-
-.blue { color: #2698BA; }
-
-.mid-gray { color: #666; }
-
-.light-gray { color: #ccc; }
-
-.lighter-gray { color: #eee; }
-
-.red { color: #FF3636; }
-
-.green { color: #00ab37; }
-
-.yellow { color: #efcc00; }
-
-.orange { color: #F29105; }
-
-.bg-dark-gray { background-color: #333; }
-
-.bg-white { background-color: white; }
-
-.bg-blue { background-color: #2698BA; }
-
-.bg-mid-gray { background-color: #666; }
-
-.bg-light-gray { background-color: #ccc; }
-
-.bg-lighter-gray { background-color: #eee; }
-
-.bg-red { background-color: #FF3636; }
-
-.bg-green { background-color: #00ab37; }
-
-.bg-yellow { background-color: #efcc00; }
-
-.bg-orange { background-color: #F29105; }
-
-.bg-darken-1 { background-color: rgba(0, 0, 0, 0.0625); }
-
-.bg-darken-2 { background-color: rgba(0, 0, 0, 0.125); }
-
-.bg-darken-3 { background-color: rgba(0, 0, 0, 0.25); }
-
-.bg-darken-4 { background-color: rgba(0, 0, 0, 0.5); }
-
 /* Basscss Utility Headings */
 .h00 { font-size: 4rem; }
 
