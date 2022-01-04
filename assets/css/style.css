@@ -4,78 +4,11 @@ body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%
 
 h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif; font-weight: 900; line-height: 1.25; margin-top: 0em; margin-bottom: 0.3em; }
 
-
-/* Basscss Color Base */
-body { color: #333; background-color: white; }
-
-a { color: #2698BA; text-decoration: none; }
-
-a:hover { text-decoration: underline; }
-
-pre, code { background-color: #eee; border-radius: 3px; }
-
-hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ccc; }
-
-/* Basscss Colors */
-.dark-gray { color: #333; }
-
-.white { color: white; }
-
-.blue { color: #2698BA; }
-
-.mid-gray { color: #666; }
-
-.light-gray { color: #ccc; }
-
-.lighter-gray { color: #eee; }
-
-.red { color: #FF3636; }
-
-.green { color: #00ab37; }
-
-.yellow { color: #efcc00; }
-
-.orange { color: #F29105; }
-
-.bg-dark-gray { background-color: #333; }
-
-.bg-white { background-color: white; }
-
-.bg-blue { background-color: #2698BA; }
-
-.bg-mid-gray { background-color: #666; }
-
-.bg-light-gray { background-color: #ccc; }
-
-.bg-lighter-gray { background-color: #eee; }
-
-.bg-red { background-color: #FF3636; }
-
-.bg-green { background-color: #00ab37; }
-
-.bg-yellow { background-color: #efcc00; }
-
-.bg-orange { background-color: #F29105; }
-
-.bg-darken-1 { background-color: rgba(0, 0, 0, 0.0625); }
-
-.bg-darken-2 { background-color: rgba(0, 0, 0, 0.125); }
-
-.bg-darken-3 { background-color: rgba(0, 0, 0, 0.25); }
-
-.bg-darken-4 { background-color: rgba(0, 0, 0, 0.5); }
-
 /* Basscss Utility Headings */
 .h00 { font-size: 4rem; }
 
 .h0 { font-size: 3rem; }
 
-@media (min-width: 52em) { .h00-responsive { font-size: 8vw; }
-  .h0-responsive { font-size: 6vw; }
-  .h1-responsive { font-size: 4vw; } }
-@media (min-width: 96em) { .h00-responsive { font-size: 7.68rem; }
-  .h0-responsive { font-size: 5.76rem; }
-  .h1-responsive { font-size: 3.84rem; } }
 /* Basscss Utility Typography */
 .bold { font-weight: bold; }
 
