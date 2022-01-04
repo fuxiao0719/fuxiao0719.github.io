@@ -141,7 +141,6 @@ sup { position: relative; vertical-align: middle; top: -0.9ex; }
 /* Page Setting */
 .wrapper { max-width: -webkit-calc(1000px - (50px * 2)); max-width: calc(1000px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
 
-
 /* site-header */
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
 .site-nav { float: right; line-height: 56px; }
