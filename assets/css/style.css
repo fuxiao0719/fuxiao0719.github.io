@@ -11,13 +11,13 @@
   .social-icons-right { text-align: right; } }
 @media screen and (min-width: 48em) { html { font-size: 18px; } }
 @media screen and (min-width: 64em) { html { font-size: 20px; } }
-@media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } }
+@media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } } */
 
 button, .button { font-family: Helvetica, sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; cursor: pointer; display: inline-block; box-sizing: border-box; line-height: 1.125rem; padding: 0.5rem 1rem; margin: 0; height: auto; border: 1px solid transparent; vertical-align: middle; -webkit-appearance: none; }
 
 ::-moz-focus-inner { border: 0; padding: 0; }
 
-.button:hover { text-decoration: none; } */
+.button:hover { text-decoration: none; }
 
 /* Basscss Base Forms */
 input, select, textarea, fieldset { font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem; }
@@ -520,6 +520,9 @@ article a:hover, .news a:hover { text-decoration: underline; }
 .social-icons a.fa:hover { opacity: 1; }
 
 .social-icons iframe[title=Flattr] { position: relative; top: 0.1em; }
+
+/* Table styles copied from Bootstrap Copyright (c) 2013 Twitter, Inc
+*/
 
 table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
 table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
