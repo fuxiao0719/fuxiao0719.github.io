@@ -2,39 +2,6 @@
 
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%; }
 
-
-pre { margin-top: 0; margin-bottom: 1rem; overflow-x: scroll; }
-
-hr { margin-top: 2rem; margin-bottom: 2rem; }
-
-blockquote { margin-top: 2rem; margin-bottom: 2rem; margin-left: 0; padding-left: 1rem; padding-right: 1rem; }
-
-blockquote, blockquote p { font-size: 1.25rem; font-style: italic; }
-
-h1, .h1 { font-size: 3rem; }
-
-h2, .h2 { font-size: 1.5rem; }
-
-h3, .h3 { font-size: 1.25rem; }
-
-h4, .h4 { font-size: 1rem; }
-
-h5, .h5 { font-size: 0.875rem; }
-
-h6, .h6 { font-size: 0.75rem; }
-
-.list-reset { list-style: none; padding-left: 0; }
-
-.button-blue { color: white; background-color: #790808; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
-
-.button-blue:hover { opacity: .875; }
-
-.button-blue:active, .button-blue.is-active { box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.125), inset 0 2px 3px 0 rgba(0, 0, 0, 0.25); }
-
-.button-blue:focus { outline: none; box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5), 0 0 1px 4px rgba(38, 152, 186, 0.5); }
-
-.button-blue:disabled, .button-blue.is-disabled { opacity: .5; }
-
 .highlight { -webkit-text-size-adjust: none; }
 
 .highlight .c, .highlight .cs, .highlight .cm, .highlight .cp, .highlight .c1 { color: #666; font-style: italic; }
