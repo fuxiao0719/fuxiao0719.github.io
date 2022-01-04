@@ -114,7 +114,6 @@ figcaption { font-size: 0.875rem; }
 
 .caption { height: 100%; color: #aaa; text-align: center; vertical-align: middle; font-size: 12px; }
 
-
 a { color: #333; text-decoration: none; }
 a:hover { color: #790808; text-decoration: none; }
 
@@ -139,8 +138,9 @@ small, .small { font-size: 0.707rem; }
 
 sup { position: relative; vertical-align: middle; top: -0.9ex; }
 
-/* Page */
+/* Page Setting */
 .wrapper { max-width: -webkit-calc(1000px - (50px * 2)); max-width: calc(1000px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
+
 
 /* site-header */
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
