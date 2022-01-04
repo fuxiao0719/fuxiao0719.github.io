@@ -2,16 +2,8 @@
 
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif; font-weight: 900; line-height: 1.25; margin-top: .5em; margin-bottom: .5em; }
+h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif; font-weight: 900; line-height: 1.25; margin-top: 0em; margin-bottom: 0.3em; }
 
-
-.hljs-deletion { background: #ffdddd; }
-
-.hljs-addition { background: #ddffdd; }
-
-.diff .hljs-change { background: #00369f; }
-
-.hljs-chunk { color: #ccc; }
 
 /* Basscss Color Base */
 body { color: #333; background-color: white; }
