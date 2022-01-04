@@ -61,14 +61,6 @@ h6, .h6 { font-size: 0.75rem; }
 .address { font-family: monospace; }
 .address p { margin: 0; }
 
-/* Honors */
-.honors { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
-.honors h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
-.honors table {border-collapse: collapse; width: 100%; }
-.honors table .name { width: 80%; text-align: left;}
-.honors table .date { width: 20%; text-align: center;}
-.honors table td { padding: 6px 0; vertical-align: top; border: none; }
-
 .social { text-align: left; }
 .social .contact-icons { font-size: 2rem; }
 .social .contact-icons a i::before { color: var(--global-text-color); -webkit-transition: all 0.2s ease-in-out; }
@@ -125,7 +117,15 @@ table > tbody + tbody { border-top: 2px solid #333; }
 /* Projects */
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
 
-/* foot */
+/* Honors */
+.honors { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
+.honors h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
+.honors table {border-collapse: collapse; width: 100%; }
+.honors table .name { width: 80%; text-align: left;}
+.honors table .date { width: 20%; text-align: center;}
+.honors table td { padding: 6px 0; vertical-align: top; border: none; }
+
+/* Foot */
 footer { background-color: #424242; border-top: thin solid #424242; color: #ccc; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
 footer a:hover { color: #790808; }
