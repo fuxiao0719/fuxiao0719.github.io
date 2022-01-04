@@ -51,10 +51,10 @@ table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333;
 table > caption + thead > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
 table > tbody + tbody { border-top: 2px solid #333; }
 
-.page-content { padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */ }
+.page-content { padding: 100px 0; }
 .page-heading { font-size: 20px; }
-.contacticon { display: block; font-size: 60px; margin: 10px; }
-.center { text-align: center; }
+/* .contacticon { display: block; font-size: 60px; margin: 10px; }
+.center { text-align: center; } */
 
 .post-header { margin-bottom: 20px; }
 .post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; margin-bottom: 10px; margin-top: 0;}
