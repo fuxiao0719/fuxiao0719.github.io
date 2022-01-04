@@ -89,7 +89,6 @@ footer a:hover { color: #790808; }
 .honors table {border-collapse: collapse; width: 100%; }
 .honors table .name { width: 80%; text-align: left;}
 .honors table .date { width: 20%; text-align: center;}
-/* .honors table tr { text-align: center;} */
 .honors table td { padding: 6px 0; vertical-align: top; border: none; }
 
 .social { text-align: left; }
@@ -103,6 +102,32 @@ footer a:hover { color: #790808; }
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
 
 .publications h2 { color: #790808; font-size: 32px; margin-bottom: 30px; text-align: center; }
+
+/* Colors */
+.dark-gray { color: #333; }
+.white { color: white; }
+.blue { color: #2698BA; }
+.mid-gray { color: #666; }
+.light-gray { color: #ccc; }
+.lighter-gray { color: #eee; }
+.red { color: #FF3636; }
+.green { color: #00ab37; }
+.yellow { color: #efcc00; }
+.orange { color: #F29105; }
+.bg-dark-gray { background-color: #333; }
+.bg-white { background-color: white; }
+.bg-blue { background-color: #2698BA; }
+.bg-mid-gray { background-color: #666; }
+.bg-light-gray { background-color: #ccc; }
+.bg-lighter-gray { background-color: #eee; }
+.bg-red { background-color: #FF3636; }
+.bg-green { background-color: #00ab37; }
+.bg-yellow { background-color: #efcc00; }
+.bg-orange { background-color: #F29105; }
+.bg-darken-1 { background-color: rgba(0, 0, 0, 0.0625); }
+.bg-darken-2 { background-color: rgba(0, 0, 0, 0.125); }
+.bg-darken-3 { background-color: rgba(0, 0, 0, 0.25); }
+.bg-darken-4 { background-color: rgba(0, 0, 0, 0.5); }
 
 figure > img { display: block; }
 
