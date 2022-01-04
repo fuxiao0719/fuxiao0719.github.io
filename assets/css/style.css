@@ -91,13 +91,6 @@ h6, .h6 { font-size: 0.75rem; }
 
 /* Projects */
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
-
-figure > img { display: block; }
-
-figcaption { font-size: 0.875rem; }
-
-.blankbox { background: #790808; }
-
 .img_row { height: 200px; width: 100%; overflow: hidden; box-sizing: border-box; }
 
 .text_row { width: 100%; vertical-align: middle; }
