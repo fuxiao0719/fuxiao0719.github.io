@@ -123,7 +123,7 @@ table > tbody + tbody { border-top: 2px solid #333; }
 .honors table .date { width: 20%; text-align: center;}
 .honors table td { padding: 6px 0; vertical-align: top; border: none; }
 
-/* foot */
+/* Foot */
 footer { background-color: #424242; border-top: thin solid #424242; color: #ccc; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
 footer a:hover { color: #790808; }
