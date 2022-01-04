@@ -13,6 +13,36 @@
 @media screen and (min-width: 64em) { html { font-size: 20px; } }
 @media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } }
 
+button, .button { font-family: Helvetica, sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; cursor: pointer; display: inline-block; box-sizing: border-box; line-height: 1.125rem; padding: 0.5rem 1rem; margin: 0; height: auto; border: 1px solid transparent; vertical-align: middle; -webkit-appearance: none; }
+
+::-moz-focus-inner { border: 0; padding: 0; }
+
+.button:hover { text-decoration: none; } */
+
+/* Basscss Base Forms */
+input, select, textarea, fieldset { font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem; }
+
+input[type=text], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week] { box-sizing: border-box; height: 2.25rem; padding: 0.5rem 0.5rem; vertical-align: middle; -webkit-appearance: none; }
+
+select { box-sizing: border-box; line-height: 1.75; padding: 0.5rem 0.5rem; }
+
+select:not([multiple]) { height: 2.25rem; vertical-align: middle; }
+
+textarea { box-sizing: border-box; line-height: 1.75; padding: 0.5rem 0.5rem; }
+
+.fieldset-reset { padding: 0; margin-left: 0; margin-right: 0; border: 0; }
+
+.fieldset-reset legend { padding: 0; }
+
+body, button { margin: 0; }
+
+button, input, select, textarea { font-family: inherit; font-size: 100%; }
+
+img { max-width: 100%; }
+
+svg { max-height: 100%; }
+
+/* Basscss Base Typography */
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif; font-weight: 900; line-height: 1.25; margin-top: 1em; margin-bottom: .5em; }
@@ -490,9 +520,6 @@ article a:hover, .news a:hover { text-decoration: underline; }
 .social-icons a.fa:hover { opacity: 1; }
 
 .social-icons iframe[title=Flattr] { position: relative; top: 0.1em; }
-
-/* Table styles copied from Bootstrap Copyright (c) 2013 Twitter, Inc
-*/
 
 table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
 table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
