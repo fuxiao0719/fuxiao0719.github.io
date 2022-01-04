@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 32em) { html { font-size: 16px; }
+  h1, .h1 { font-size: 2.998rem; }
+  .site-header { text-align: left; }
+  .site-nav { margin-top: 0; }
+  .site-header a { font-size: 1rem; }
+  .site-header .site-title { font-size: 1.25rem; float: left; }
+  .site-header .site-nav { float: right; }
+  blockquote { margin-left: 2rem; padding: 2rem; }
+  .social-icons-left { text-align: left; }
+  .social-icons-right { text-align: right; } }
+@media screen and (min-width: 48em) { html { font-size: 18px; } }
+@media screen and (min-width: 64em) { html { font-size: 20px; } }
+@media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } } 
+
+@media (min-width: 52em) { .h00-responsive { font-size: 8vw; }
+  .h0-responsive { font-size: 6vw; }
+  .h1-responsive { font-size: 4vw; } }
+@media (min-width: 96em) { .h00-responsive { font-size: 7.68rem; }
+  .h0-responsive { font-size: 5.76rem; }
+  .h1-responsive { font-size: 3.84rem; } }
+
+@media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 25px; background-color: white; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+  .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
+  .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
+  .site-nav .menu-icon > svg path { fill: #424242; }
+  .site-nav input ~ .trigger { clear: both; display: none; }
+  .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
+  .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 10px; }
+  .site-nav .page-link:not(:last-child) { margin-right: 0; } }
+
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif; font-weight: 900; line-height: 1.25; margin-top: 0em; margin-bottom: 0.3em; }
