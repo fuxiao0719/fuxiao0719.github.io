@@ -13,14 +13,14 @@
 @media screen and (min-width: 64em) { html { font-size: 20px; } }
 @media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } } */
 
-button, .button { font-family: Helvetica, sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; cursor: pointer; display: inline-block; box-sizing: border-box; line-height: 1.125rem; padding: 0.5rem 1rem; margin: 0; height: auto; border: 1px solid transparent; vertical-align: middle; -webkit-appearance: none; }
+/* button, .button { font-family: Helvetica, sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; cursor: pointer; display: inline-block; box-sizing: border-box; line-height: 1.125rem; padding: 0.5rem 1rem; margin: 0; height: auto; border: 1px solid transparent; vertical-align: middle; -webkit-appearance: none; }
 
 ::-moz-focus-inner { border: 0; padding: 0; }
 
-.button:hover { text-decoration: none; }
+.button:hover { text-decoration: none; } */
 
 /* Basscss Base Forms */
-input, select, textarea, fieldset { font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem; }
+/* input, select, textarea, fieldset { font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem; }
 
 input[type=text], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week] { box-sizing: border-box; height: 2.25rem; padding: 0.5rem 0.5rem; vertical-align: middle; -webkit-appearance: none; }
 
@@ -40,7 +40,7 @@ button, input, select, textarea { font-family: inherit; font-size: 100%; }
 
 img { max-width: 100%; }
 
-svg { max-height: 100%; }
+svg { max-height: 100%; } */
 
 /* Basscss Base Typography */
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%; }
