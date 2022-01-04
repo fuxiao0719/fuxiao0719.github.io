@@ -1,9 +1,5 @@
 @charset "UTF-8";
-/******************************************************************************/
-/******************************************************************************/
-/* portfolio tinkering */
-/* add on-palm to be consistent with other jekyll theme media queries */
-@media screen and (min-width: 32em) { html { font-size: 16px; }
+/* @media screen and (min-width: 32em) { html { font-size: 16px; }
   h1, .h1 { font-size: 2.998rem; }
   .site-header { text-align: left; }
   .site-nav { margin-top: 0; }
@@ -15,15 +11,7 @@
   .social-icons-right { text-align: right; } }
 @media screen and (min-width: 48em) { html { font-size: 18px; } }
 @media screen and (min-width: 64em) { html { font-size: 20px; } }
-@media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } }
-/*!
-  BASSCSS
-  Next-level CSS toolkit - basscss.com
-  Made with love by Jxnblk - ©2014 Brent Jackson
-  MIT License http://opensource.org/licenses/MIT
-*/
-/* Basscss Base Buttons */
-
+@media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } } */
 
 :root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #C85C5C; --global-hover-color: #C85C5C; --global-footer-bg-color: #1C1C1D; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; --global-divider-color: rgba(0,0,0,.1); }
 
