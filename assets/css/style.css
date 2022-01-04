@@ -4,29 +4,11 @@ body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%
 
 h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif; font-weight: 900; line-height: 1.25; margin-top: 0em; margin-bottom: 0.3em; }
 
-
-html, body { height: auto; min-height: 100%; -webkit-text-size-adjust: 100%; }
-
-img { max-width: none; }
-
-em img { max-width: 100%; margin-left: 0; }
-
 body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
-
-.wrapper { max-width: -webkit-calc(1000px - (50px * 2)); max-width: calc(1000px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
-
-.clearfix:before, .wrapper:before, .clearfix:after, .wrapper:after { content: ' '; display: table; }
-
-.clearfix:after, .wrapper:after { clear: both; }
-
 .left { float: left; }
-
 .right { float: right; }
-
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
-
 .site-title { font-size: 20px; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; }
-
 .site-nav { float: right; line-height: 56px; }
 .site-nav .nav-trigger { display: none; }
 .site-nav .menu-icon { display: none; }
