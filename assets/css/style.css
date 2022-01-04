@@ -97,6 +97,8 @@ footer a:hover { color: #790808; }
 .social .contact-icons a i::before { color: var(--global-text-color); -webkit-transition: all 0.2s ease-in-out; }
 .social .contact-icons a:hover i::before { color: var(--global-theme-color); }
 .social .contact-note { font-size: 0.8rem; }
+.social a { color: #333; }
+.social a:hover { color: #0000CD; }
 
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
 
@@ -133,9 +135,6 @@ a:hover { color: #790808; text-decoration: none; }
 
 article a, .news a { color: #0000CD; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
-
-.social a { color: #333; }
-.social a:hover { color: #0000CD; }
 
 table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
 table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
