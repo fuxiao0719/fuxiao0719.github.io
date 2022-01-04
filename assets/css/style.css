@@ -134,6 +134,9 @@ a:hover { color: #790808; text-decoration: none; }
 article a, .news a { color: #0000CD; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
 
+.social a { color: #333; }
+.social a:hover { color: #0000CD; }
+
 table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
 table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
 table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333; }
