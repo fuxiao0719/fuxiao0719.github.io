@@ -199,9 +199,6 @@ article a:hover, .news a:hover { text-decoration: underline; }
 
 .social-icons iframe[title=Flattr] { position: relative; top: 0.1em; }
 
-/* Table styles copied from Bootstrap Copyright (c) 2013 Twitter, Inc
-*/
-
 table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
 table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
 table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333; }
