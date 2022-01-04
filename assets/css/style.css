@@ -63,8 +63,6 @@ table > tbody + tbody { border-top: 2px solid #333; }
 .post-content h3 { font-size: 30px; }
 .post-content h4 { font-size: 20px; }
 
-.post-meta { color: #828282; font-size: 0.875rem; margin-bottom: 0px; }
-.post-link { display: block; font-size: 42px; }
 .profile img { width: 100%; }
 
 .img_row { height: 200px; width: 100%; overflow: hidden; box-sizing: border-box; }
@@ -78,9 +76,6 @@ a { color: #333; text-decoration: none; }
 a:hover { color: #790808; text-decoration: none; }
 article a, .news a { color: #0000CD; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
-
-body { color: #333; font-weight: 100; }
-p { color: #333; line-height: 1.5; }
 
 .social { text-align: left; }
 .social .contact-icons { font-size: 2rem; }
