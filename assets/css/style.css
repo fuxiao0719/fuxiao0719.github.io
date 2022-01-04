@@ -75,6 +75,7 @@ h6, .h6 { font-size: 0.75rem; }
 .news table tr { text-align: left; }
 .news table td { padding: 6px 0; vertical-align: top; border: none; }
 
+/* Honors */
 .honors { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
 .honors h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
 .honors table {border-collapse: collapse; width: 100%; }
@@ -108,12 +109,9 @@ figcaption { font-size: 0.875rem; }
 .profile_img { margin-left: 5ex; width: 30.0%; }
 
 .one { width: 33.3%; }
-
 .two { width: 66.7%; }
-
 .three { width: 100%; }
 
-.caption { height: 100%; color: #aaa; text-align: center; vertical-align: middle; font-size: 12px; }
 
 a { color: #333; text-decoration: none; }
 a:hover { color: #790808; text-decoration: none; }
@@ -130,8 +128,6 @@ abbr { border-bottom: 1px black dotted; cursor: help; }
 p { color: #333; line-height: 1.5; }
 
 small, .small { font-size: 0.707rem; }
-
-sup { position: relative; vertical-align: middle; top: -0.9ex; }
 
 /* Page Setting */
 .wrapper { max-width: -webkit-calc(1000px - (50px * 2)); max-width: calc(1000px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
