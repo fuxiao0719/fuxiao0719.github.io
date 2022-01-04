@@ -2,56 +2,10 @@
 
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%; }
 
-.highlight { -webkit-text-size-adjust: none; }
-
-.highlight .c, .highlight .cs, .highlight .cm, .highlight .cp, .highlight .c1 { color: #666; font-style: italic; }
-
-.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kr, .highlight .kt, .highlight .kp { color: #00369f; }
-
-.highlight .na, .highlight .nb, .highlight .nc, .highlight .no, .highlight .nd, .highlight .ni, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .nn, .highlight .nx { color: #333; }
-
-.highlight .mi, .highlight .il { color: #009f06; }
-
-.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .s3, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .ss, .highlight .s1 { color: #FF3636; }
-
-.hljs-title, .hljs-id, .scss .hljs-preprocessor { color: #FF3636; font-weight: bold; }
-
-.highlight .k { font-weight: normal; }
-
-.highlight .nc, .highlight .no { color: #00369f; }
-
-.highlight .o { color: #00369f; font-weight: normal; }
-
-.highlight .nb { color: #009f06; }
-
-.highlight .sr { color: #009f06; }
-
-.highlight .ss { color: #B509AC; }
-
-.hljs-built_in { color: #00369f; }
-
-.hljs-preprocessor, .hljs-pragma, .hljs-pi, .hljs-doctype, .hljs-shebang, .hljs-cdata { color: #666; font-weight: bold; }
-
-.hljs-deletion { background: #ffdddd; }
-
-.hljs-addition { background: #ddffdd; }
-
-.diff .hljs-change { background: #00369f; }
-
-.hljs-chunk { color: #ccc; }
-
-/* Basscss Color Base */
-body { color: #333; background-color: white; }
-
 a { color: #2698BA; text-decoration: none; }
-
-a:hover { text-decoration: underline; }
-
-pre, code { background-color: #eee; border-radius: 3px; }
 
 hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ccc; }
 
-/* Basscss Colors */
 .dark-gray { color: #333; }
 
 .white { color: white; }
