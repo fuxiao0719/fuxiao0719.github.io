@@ -5,31 +5,20 @@ body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%
 h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif; font-weight: 900; line-height: 1.25; margin-top: 0em; margin-bottom: 0.3em; }
 
 body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+
 .left { float: left; }
+
 .right { float: right; }
+
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
+
 .site-title { font-size: 20px; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; }
+
 .site-nav { float: right; line-height: 56px; }
 .site-nav .nav-trigger { display: none; }
 .site-nav .menu-icon { display: none; }
 .site-nav .page-link { line-height: 1.5; }
 .site-nav .page-link:not(:first-child) { margin-left: 10px; }
-@media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 25px; background-color: white; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
-  .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
-  .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
-  .site-nav .menu-icon > svg path { fill: #424242; }
-  .site-nav input ~ .trigger { clear: both; display: none; }
-  .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
-  .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 10px; }
-  .site-nav .page-link:not(:last-child) { margin-right: 0; } }
-
-.header-bar { border-bottom: 1px solid #ccc; font-size: 20px; display: block; opacity: 0.75; width: 100%; text-align: center; padding-top: 25px; padding-bottom: 4rem; line-height: 3em; z-index: 25; }
-.header-bar h1 { color: #790808; font-size: 75px; }
-.header-bar h2 { font-size: 25px; }
-
-.site { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; min-height: 100vh; }
-
-.site-wrap { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1 0 auto; flex: 1 0 auto; }
 
 footer { background-color: #424242; border-top: thin solid #424242; color: #ccc; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
