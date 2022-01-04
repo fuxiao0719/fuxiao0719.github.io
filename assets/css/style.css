@@ -62,18 +62,7 @@ footer a:hover { color: #790808; }
 /* .honors table tr { text-align: center;} */
 .honors table td { padding: 6px 0; vertical-align: top; border: none; }
 
-.social { text-align: left; }
-.social .contact-icons { font-size: 2rem; }
-.social .contact-icons a i::before { color: var(--global-text-color); -webkit-transition: all 0.2s ease-in-out; }
-.social .contact-icons a:hover i::before { color: var(--global-theme-color); }
-.social .contact-note { font-size: 0.8rem; }
-
-
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
-
-.publications h2 { color: #790808; font-size: 32px; margin-bottom: 30px; text-align: center; }
-
-.blankbox { background: #790808; }
 
 .img_row { height: 200px; width: 100%; overflow: hidden; box-sizing: border-box; }
 
