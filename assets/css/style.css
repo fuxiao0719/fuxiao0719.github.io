@@ -91,7 +91,6 @@ table > tbody + tbody { border-top: 2px solid #333; }
 
 .profile_img { margin-left: 5ex; width: 30.0%; }
 
-
 /* site-header */
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
 .site-nav { float: right; line-height: 56px; }
