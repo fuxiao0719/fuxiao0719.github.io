@@ -118,7 +118,6 @@ footer a:hover { color: #790808; }
 .social .contact-note { font-size: 0.8rem; }
 
 
-
 blockquote { border-left: 5px solid #7a7a7a; font-style: italic; margin-left: 0.5rem; padding: 0.5rem; }
 
 blockquote footer { background-color: #fff; border-color: transparent; color: #7a7a7a; font-size: .85rem; font-style: normal; text-align: left; padding: 0; }
@@ -162,60 +161,6 @@ figcaption { font-size: 0.875rem; }
 .one { width: 33.3%; }
 
 .two { width: 66.7%; }
-
-.three { width: 100%; }
-
-.caption { height: 100%; color: #aaa; text-align: center; vertical-align: middle; font-size: 12px; }
-
-.gist, .gist .highlight .p { font-size: .75rem; }
-
-.gist .lines { width: 100%; }
-
-a { color: #333; text-decoration: none; }
-a:hover { color: #790808; text-decoration: none; }
-
-article a, .news a { color: #0000CD; font-weight: 100; }
-article a:hover, .news a:hover { text-decoration: underline; }
-
-.social a { color: #333; }
-.social a:hover { color: #0000CD; }
-
-.measure { margin: 0 auto; max-width: 42rem; }
-
-.social-icons-left, .social-icons-right { text-align: center; float: none; }
-
-.social-icons { font-size: 1.25rem; padding: 0.5em 0 0 0; width: 100%; }
-
-.social-icons a.fa { cursor: pointer; opacity: 0.8; padding: 0.2em; }
-
-.social-icons a.fa:hover { opacity: 1; }
-
-.social-icons iframe[title=Flattr] { position: relative; top: 0.1em; }
-
-/* Table styles copied from Bootstrap Copyright (c) 2013 Twitter, Inc
-*/
-
-table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
-table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
-table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333; }
-table > caption + thead > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
-table > tbody + tbody { border-top: 2px solid #333; }
-
-html { font-size: 16px; }
-
-body { color: #333; font-weight: 100; }
-
-abbr { border-bottom: 1px black dotted; cursor: help; }
-
-p { color: #333; line-height: 1.5; }
-
-small, .small { font-size: 0.707rem; }
-
-sup { position: relative; vertical-align: middle; top: -0.9ex; }
-
-h1, h2, h3, h4, h5, h6 { font-weight: 100; }
-
-div.equation { margin: 0.5rem 0; }
 
 .three { width: 100%; }
 
