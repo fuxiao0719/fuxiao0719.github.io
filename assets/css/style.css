@@ -134,24 +134,6 @@ a:hover { color: #790808; text-decoration: none; }
 article a, .news a { color: #0000CD; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
 
-.social a { color: #333; }
-.social a:hover { color: #0000CD; }
-
-.measure { margin: 0 auto; max-width: 42rem; }
-
-.social-icons-left, .social-icons-right { text-align: center; float: none; }
-
-.social-icons { font-size: 1.25rem; padding: 0.5em 0 0 0; width: 100%; }
-
-.social-icons a.fa { cursor: pointer; opacity: 0.8; padding: 0.2em; }
-
-.social-icons a.fa:hover { opacity: 1; }
-
-.social-icons iframe[title=Flattr] { position: relative; top: 0.1em; }
-
-/* Table styles copied from Bootstrap Copyright (c) 2013 Twitter, Inc
-*/
-
 table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
 table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
 table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333; }
