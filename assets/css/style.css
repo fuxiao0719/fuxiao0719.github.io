@@ -44,6 +44,9 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 .post-content h3 { font-size: 30px; }
 .post-content h4 { font-size: 20px; }
 
+.left { float: left; }
+.right { float: right; }
+
 table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
 table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
 
@@ -53,9 +56,6 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 .one { width: 33.3%; }
 .two { width: 66.7%; }
 .three { width: 100%; }
-
-.left { float: left; }
-.right { float: right; }
 
 .social { text-align: left; }
 .social .contact-icons { font-size: 2rem; }
