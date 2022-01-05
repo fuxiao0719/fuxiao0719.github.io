@@ -40,15 +40,15 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 .left { float: left; }
 .right { float: right; }
 
-table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
-table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
-
 .page-content { padding: 80px 0; }
 .post-header { margin-bottom: 20px; }
 .post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; margin-bottom: 10px; margin-top: 0;}
 .post-content h2 { font-size: 42px; }
 .post-content h3 { font-size: 30px; }
 .post-content h4 { font-size: 20px; }
+
+table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
+table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
 
 .profile img { width: 100%; }
 .img_row { height: 200px; width: 100%; overflow: hidden; box-sizing: border-box; }
