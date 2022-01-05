@@ -70,7 +70,6 @@ table > tbody + tbody { border-top: 2px solid #333; }
 
 .social { text-align: left; }
 .social .contact-icons { font-size: 2rem; }
-/* .social .contact-note { font-size: 0.8rem; } */
 .social a { color: #333; }
 .social a:hover { color: #0000CD; }
 
