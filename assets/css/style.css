@@ -41,7 +41,7 @@ h6, .h6 { font-size: 0.75rem; }
 a { color: #333; text-decoration: none; }
 a:hover { color: #790808; text-decoration: none; }
 article a, .news a { color: #0000CD; font-weight: 100; }
-article a:hover, .news a:hover { text-decoration: underline; }
+article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 
 .left { float: left; }
 .right { float: right; }
