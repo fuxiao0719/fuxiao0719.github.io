@@ -40,6 +40,8 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 .left { float: left; }
 .right { float: right; }
 
+.profile_img { margin-left: 5ex; width: 30.0%; }
+
 .page-content { padding: 80px 0; }
 .post-header { margin-bottom: 20px; }
 .post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; margin-bottom: 10px; margin-top: 0;}
@@ -52,7 +54,6 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 
 .img_row { height: 200px; width: 100%; overflow: hidden; box-sizing: border-box; }
 .col { width: 100%; height: 100%; object-fit: cover; box-sizing: border-box; padding: 5px; }
-.profile_img { margin-left: 5ex; width: 30.0%; }
 .one { width: 33.3%; }
 .two { width: 66.7%; }
 .three { width: 100%; }
