@@ -94,6 +94,14 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 /* Pageviews */
 .pageview { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
 
+/* Talks */
+.talks { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
+.talks h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
+.talks table {border-collapse: collapse; width: 100%; }
+.talks table .name { width: 80%; text-align: left;}
+.talks table .date { width: 20%; text-align: center;}
+.talks table td { padding: 6px 0; vertical-align: top; border: none; }
+
 /* Foot */
 footer { background-color: #424242; border-top: thin solid #424242; color: #ccc; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
