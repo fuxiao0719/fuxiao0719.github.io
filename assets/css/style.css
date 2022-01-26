@@ -27,7 +27,7 @@
 .bg-darken-4 { background-color: rgba(0, 0, 0, 0.5); }
 
 /* Page Setting */
-.wrapper { max-width: -webkit-calc(1100px - (50px * 2)); max-width: calc(1100px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
+.wrapper { max-width: -webkit-calc(1050px - (50px * 2)); max-width: calc(1050px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 100%; height: auto; min-height: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
 
 h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif; font-weight: 900; line-height: 1.25; margin-top: 0em; margin-bottom: .5em; font-weight: 100;}
