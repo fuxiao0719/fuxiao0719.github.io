@@ -63,7 +63,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 .social a:hover { color: #0000CD; }
 
 /* site-header */
-.site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
+.site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; }
 .site-nav { float: right; line-height: 56px; }
 .site-nav .nav-trigger { display: none; }
 .site-nav .menu-icon { display: none; }
