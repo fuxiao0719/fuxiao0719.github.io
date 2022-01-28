@@ -30,7 +30,7 @@
 .wrapper {max-width: calc(1150px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
 body { font-family: "Times New Romans", serif; line-height: 1.5; font-size: 110%;}
 
-h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif;  margin-bottom: .5em; font-weight: 100;}
+h1, h2, h3, h4, h5, h6 { font-family: "Times New Romans", serif;  margin-top: 0em; margin-bottom: .5em; font-weight: 100;}
 
 a { color: #333; text-decoration: none; }
 a:hover { color: #790808; text-decoration: none; }
