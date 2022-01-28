@@ -66,6 +66,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 .site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; }
 .site-nav { float: right; line-height: 56px; }
 .site-nav .menu-icon { display: none; }
+.site-nav .nav-trigger { display: none; }
 .site-nav .page-link { line-height: 1.5; }
 .site-nav .page-link:not(:first-child) { margin-left: 10px; }
 .site-wrap { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1 0 auto; flex: 1 0 auto; }
