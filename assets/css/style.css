@@ -95,8 +95,8 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 /* MCCSP */
 .MCCSP { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
 .MCCSP table {border-collapse: collapse; width: 100%;}
-.MCCSP table .title { width: 85%; text-align: left;}
-.MCCSP table .tweet { width: 15%; text-align: center;}
+.MCCSP table .title { width: 80%; text-align: left;}
+.MCCSP table .tweet { width: 20%; text-align: center;}
 .MCCSP table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
 
 /* Foot */
