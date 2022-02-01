@@ -45,7 +45,6 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 .left { float: left; }
 .right { float: right; }
 
-table { width: 100%; max-width: 100%; margin-bottom: 1.5; }
 table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
 
 .img_row { height: 200px; width: 100%; overflow: hidden; box-sizing: border-box; }
@@ -75,7 +74,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 .news table .date { width: 19%; }
 .news table .announcement { width: 81%; }
 .news table tr { text-align: left; }
-.news table td { padding: 6px 0; vertical-align: top; border: none; }
+.news table td { padding: 6px 0; vertical-align: center; border: none; }
 
 /* Projects */
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
