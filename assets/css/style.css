@@ -45,8 +45,6 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 .left { float: left; }
 .right { float: right; }
 
-table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid #333; }
-
 .img_row { height: 200px; width: 100%; overflow: hidden; box-sizing: border-box; }
 .col {object-fit: cover; box-sizing: border-box; padding: 5px; width: 100%; height:100%}
 .profile_img { margin-left: 0ex;}
@@ -73,8 +71,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 .news table {border-collapse: collapse; width: 100%; }
 .news table .date { width: 19%; }
 .news table .announcement { width: 81%; }
-.news table tr { text-align: left; }
-.news table td { padding: 6px 0; vertical-align: center; border: none; }
+.news table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
 
 /* Projects */
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
@@ -85,7 +82,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 .honors table {border-collapse: collapse; width: 100%; }
 .honors table .name { width: 80%; text-align: left;}
 .honors table .date { width: 20%; text-align: center;}
-.honors table td { padding: 6px 0; vertical-align: top; border: none; }
+.honors table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
 
 /* Pageviews */
 .pageview { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
@@ -93,10 +90,10 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 /* Talks */
 .talks { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
 .talks h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
-.talks table {border-collapse: collapse; width: 100%; }
+.talks table {border-collapse: collapse; width: 100%; padding: 12px; line-height: 1.2; }
 .talks table .name { width: 80%; text-align: left;}
 .talks table .date { width: 20%; text-align: center;}
-.talks table td { padding: 6px 0; vertical-align: top; border: none; }
+.talks table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
 
 /* Foot */
 footer { background-color: #424242; border-top: thin solid #424242; color: #ccc; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
