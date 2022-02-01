@@ -40,9 +40,10 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 .page-content { padding: 80px 0; }
 .post-header { margin-bottom: 20px; }
 .post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; margin-bottom: 10px; margin-top: 0;}
-.post-content h2 { font-size: 42px; }
 .post-content h3 { font-size: 30px; }
-.post-content h4 { font-size: 20px; }
+
+/* .post-content h2 { font-size: 42px; }
+.post-content h4 { font-size: 20px; } */
 
 .left { float: left; }
 .right { float: right; }
