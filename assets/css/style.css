@@ -67,7 +67,6 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 
 /* News */
 .news { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
-.news h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
 .news table {border-collapse: collapse; width: 100%; }
 .news table .date { width: 19%; }
 .news table .announcement { width: 81%; }
@@ -78,7 +77,6 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 
 /* Honors */
 .honors { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
-.honors h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
 .honors table {border-collapse: collapse; width: 100%; }
 .honors table .name { width: 80%; text-align: left;}
 .honors table .date { width: 20%; text-align: center;}
@@ -89,8 +87,7 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 
 /* Talks */
 .talks { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
-.talks h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
-.talks table {border-collapse: collapse; width: 100%; padding: 12px; line-height: 1.2; }
+.talks table {border-collapse: collapse; width: 100%;}
 .talks table .name { width: 80%; text-align: left;}
 .talks table .date { width: 20%; text-align: center;}
 .talks table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
