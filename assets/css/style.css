@@ -49,8 +49,8 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 .col {object-fit: cover; box-sizing: border-box; padding: 5px; width: 100%; height:100%}
 .profile_img { margin-left: 0ex;}
 .below_profile_img {margin-left: 5ex; text-align:center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-.one { width: 33.3%; }
-.two { width: 66.7%; }
+.one { width: 30%; }
+.two { width: 70%; }
 .three { width: 100%; }
 
 .social { text-align: left; }
