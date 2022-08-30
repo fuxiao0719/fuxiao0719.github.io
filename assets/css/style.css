@@ -75,9 +75,6 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 
 /* Projects */
 .projects { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
-.projects .author a { border-bottom: 1px dashed var(--global-theme-color); }
-.projects .author a:hover { border-bottom-style: solid; text-decoration: none; }
-.projects .author > em { border-bottom: 1px solid; font-style: normal; }
 
 /* Honors */
 .honors { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
