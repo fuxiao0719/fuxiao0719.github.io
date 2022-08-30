@@ -96,13 +96,6 @@ article a:hover, .news a:hover { color: #790808; text-decoration: underline; }
 .talks table .date { width: 20%; text-align: center;}
 .talks table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
 
-/* MCCSP */
-.MCCSP { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
-.MCCSP table {border-collapse: collapse; width: 100%;}
-.MCCSP table .title { width: 80%; text-align: left;}
-.MCCSP table .tweet { width: 20%; text-align: center;}
-.MCCSP table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
-
 /* Foot */
 footer { background-color: #424242; border-top: thin solid #424242; color: #ccc; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
