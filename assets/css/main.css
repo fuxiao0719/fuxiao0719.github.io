@@ -248,6 +248,11 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
 
 .post-tags { color: var(--global-text-color-light); font-size: 0.875rem; padding-top: 0.25rem; }
 
+.honors table {border-collapse: collapse; width: 100%; }
+.honors table .name { width: 80%; text-align: left;}
+.honors table .date { width: 20%; text-align: center;}
+.honors table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
+
 /******************************************************************************* Style overrides for distill blog posts. */
 d-byline { border-top-color: #e8e8e8 !important; }
 
