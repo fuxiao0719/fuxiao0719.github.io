@@ -248,6 +248,14 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
 
 .post-tags { color: var(--global-text-color-light); font-size: 0.875rem; padding-top: 0.25rem; }
 
+.news table {border-collapse: collapse; width: 100%; }
+
+.news table .date { width: 19%; }
+
+.news table .announcement { width: 81%; }
+
+.news table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
+
 .honors table {border-collapse: collapse; width: 100%; }
 
 .honors table .name { width: 80%; text-align: left;}
