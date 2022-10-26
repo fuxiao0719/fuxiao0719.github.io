@@ -254,7 +254,7 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
 
 .honors table .date { width: 20%; text-align: center;}
 
-.honors table td { padding: 6px 0; vertical-align: top; border: none; line-height: 2;}
+.honors table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
 
 /******************************************************************************* Style overrides for distill blog posts. */
 d-byline { border-top-color: #e8e8e8 !important; }
