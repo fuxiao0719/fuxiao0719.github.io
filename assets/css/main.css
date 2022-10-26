@@ -104,7 +104,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .navbar-toggler.collapsed .bottom-bar { transform: rotate(0); }
 
-.news table td { font-size: 1rem; color: var(--global-text-color); }
+/* .news table td { font-size: 1rem; color: var(--global-text-color); }
 
 .news table th { color: var(--global-text-color); }
 
@@ -114,7 +114,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .news a btn { color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
 
-.news a btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+.news a btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); } */
 
 .social { text-align: center; }
 
@@ -248,6 +248,8 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
 
 .post-tags { color: var(--global-text-color-light); font-size: 0.875rem; padding-top: 0.25rem; }
 
+.news { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
+
 .news table {border-collapse: collapse; width: 100%; }
 
 .news table .date { width: 19%; }
@@ -255,6 +257,8 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
 .news table .announcement { width: 81%; }
 
 .news table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
+
+.honors { border-top: 1px solid #e8e8e8; margin-top: 20px; padding-top: 20px; }
 
 .honors table {border-collapse: collapse; width: 100%; }
 
