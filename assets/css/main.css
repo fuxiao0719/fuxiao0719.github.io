@@ -262,9 +262,9 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
 
 .honors table {border-collapse: collapse; width: 100%; }
 
-.honors table .name { width: 80%; text-align: left; font-size: 1rem}
+.honors table .name { width: 80%; text-align: left; font-size: 2rem}
 
-.honors table .date { width: 20%; text-align: center; font-size: 1rem}
+.honors table .date { width: 20%; text-align: center; font-size: 2rem}
 
 .honors table td { padding: 6px 0; vertical-align: top; border: none; line-height: 1.2;}
 
