@@ -65,7 +65,7 @@
       <div class="col-12 text-center">
         <h3>Abstract</h3>
         <hr style="margin-top:0px">
-        <h5 style="color:#8899a5"> PanopticNeRF-360 renders panoramic 2D panoptic labels from easy-to-obtain
+        <h5 style="color:#8899a5"> PanopticNeRF-360 renders panoramic 2D panoptic labels from readily available
           coarse 3D bounding primitives.</h5>
         <p class="text-left" style="margin-top:19px;font-size: 19px;">demo video... </p>
       </div>
@@ -85,12 +85,15 @@
         <img src="https://fuxiao0719.github.io/projects/panopticnerf360/images/method.png" alt="framework" width="100%">
         <p class="text-left" style="margin-top:19px;font-size: 19px;">At each 3D location sampled in a 360 scene, we
           formulate scene feature combining MLPs features and multi-resolution hash encoding features to unify their
-          merits, <b>inductive smoothness and expressive local details</b>. Then we leverage <b>dual semantic fields</b> to obtain two
+          merits, <b>inductive smoothness and expressive local details</b>. Then we leverage <b>dual semantic fields</b>
+          to obtain two
           semantic categorical logits. The semantic losses applied to both semantic fields improve 1) the volume
           density and 2) the 3D semantic predictions. Our method allows for rendering panoptic labels by combining the
           learned semantic field and a <b>fixed instance field</b> determined by the 3D bounding primitives. To mitigate
-          intersections in the same semantic classes, mainly ''building''', we further perform <b>plane regression</b> on these
-          buildings in the instance map, yielding pseudo panoptic label GT. We futher define instance loss in fine-tuning stage
+          intersections in the same semantic classes, mainly ''building''', we further perform <b>plane regression</b>
+          on these
+          buildings in the instance map, yielding pseudo panoptic label GT. We futher define instance loss in
+          fine-tuning stage
           to refine the instance geometry and enable more accurate panoptic label.</p>
       </div>
     </div>
