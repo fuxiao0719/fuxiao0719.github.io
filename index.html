@@ -293,8 +293,7 @@
 
                 <div id="Fu2022THREEDV" class="col-md-9">
 
-                  <div class="title">Panoptic Neural Representation for Panoramic 3D-to-2D Label Transfer in Urban
-                    Scenes
+                  <div class="title">PanopticNeRF-360: Panoramic 3D-to-2D Label Transfer in Urban Scenes
                   </div>
                   <div class="author">
 
@@ -327,23 +326,24 @@
                     </div>
                     <!-- Hidden abstract block -->
                     <div class="abstract hidden">
-                      <p>This paper addresses the problem of effective panoptic label annotation in urban scenes
-                        utilizing 3D-2D label transfer technique from the perspective of neural rendering. In addition
-                        to labeling offline captures, the ability of rendering road information at novel viewpoints is
-                        also vital to aid driving simulator platforms with on-policy guiding. Hence we present
-                        PanopticNeRF-360, which takes as input easy-to-obtain coarse 3D bounding primitives and noisy 2D
-                        semantic cues, to infer in 3D space to render multi-view and spatio-temporally consistent
-                        semantic and instance labels as well as high-frequency imagery. Specifically, PanopticNeRF-360
-                        builds hybrid scene features composed of MLP features and grid features, and leverages a dual
-                        formulation of semantic fields to improve underlying geometry and resolves label ambiguity of
-                        coarse 3D annotations between different semantic classes while filtering noise in the 2D
-                        predictions. Furthermore, it constructs a fixed instance field to render instance labels and
-                        utilizes self-evolved line prior to address intersection between adjacent buildings.
-                        Experimental results demonstrate PanopticNeRF-360's state-of-the-art performance compared to
-                        existing label transfer methods on challenging urban scenes of the KITTI-360 dataset. Moreover,
-                        PanopticNeRF-360 enables the omnidirectional rendering of high-fidelity, multi-view and
-                        spatio-temporally consistent appearance, semantic and instance labels. The code is available at
-                        https://github.com/fuxiao0719/panopticnerf.
+                      <p>Autonomous driving perception requires a large amount of annotated data, not only from offline
+                        captured viewpoints but also from novel viewpoints, to enable closed-loop evaluation. Manual
+                        labeling in the 2D image space is a highly labor-intensive process that falls short in providing
+                        a comprehensive 3D understanding essential for rendering labels from different viewpoints. In
+                        this paper, we present PanopticNeRF-360, which takes as input easy-to-obtain coarse 3D bounding
+                        primitives and noisy 2D semantic cues, to infer in 3D space to render spatio-temporally
+                        consistent semantic and instance labels as well as high-fidelity imagery at arbitrary views.
+                        Specifically, PanopticNeRF-360 combines MLP features and grid features to create hybrid scene
+                        features, striking a balance between high-frequency appearance and largely contiguous semantics.
+                        We further propose a dual formulation of semantic fields to improve the underlying geometry and
+                        resolve label ambiguity in coarse 3D annotations across different semantic classes, while also
+                        filtering noise in the 2D predictions. Moreover, we construct a fixed instance field to render
+                        instance labels and utilize self-evolved line prior to address intersections between adjacent
+                        buildings. Experimental results demonstrate that PanopticNeRF-360 achieve state-of-the-art
+                        performance compared to existing label transfer methods on challenging urban scenes of the
+                        KITTI-360 dataset. Moreover, PanopticNeRF-360 enables the omnidirectional rendering of
+                        high-fidelity, multi-view and spatio-temporally consistent appearance, semantic and instance
+                        labels.The code is available at https://github.com/fuxiao0719/panopticnerf.
                       </p>
                     </div>
                   </div>
