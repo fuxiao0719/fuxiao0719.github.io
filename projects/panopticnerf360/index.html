@@ -67,9 +67,9 @@
         <hr style="margin-top:0px">
         <h5 style="color:#8899a5"> PanopticNeRF-360 renders panoramic 2D panoptic labels from readily available
           coarse 3D bounding primitives.</h5>
-          <video width="60%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
-            <source src="video/main_demo.mp4" type="video/mp4">
-          </video>
+        <video width="60%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+          <source src="video/main_demo.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </div>
@@ -93,7 +93,7 @@
           semantic categorical logits. The semantic losses applied to both semantic fields improve 1) the volume
           density and 2) the 3D semantic predictions. Our method allows for rendering panoptic labels by combining the
           learned semantic field and a <b>fixed instance field</b> determined by the 3D bounding primitives. To mitigate
-          intersections in the same semantic classes, mainly ''building''', we further perform <b>plane regression</b>
+          over-exposure inbuildings, we further perform <b>plane regression</b>
           on these
           buildings in the instance map, yielding pseudo panoptic label GT. We futher define instance loss in
           fine-tuning stage
