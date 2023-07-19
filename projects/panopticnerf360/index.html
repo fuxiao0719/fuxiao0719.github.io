@@ -90,14 +90,10 @@
           merits, <b>inductive smoothness for semantics and expressive local details for appearance</b>. Then we
           leverage <b>dual semantic fields</b>
           to obtain two
-          semantic categorical logits. The semantic losses applied to both semantic fields improve 1) the volume
-          density and 2) the 3D semantic predictions. Our method allows for rendering panoptic labels by combining the
-          learned semantic field and a <b>fixed instance field</b> determined by the 3D bounding primitives. To mitigate
-          over-exposure in buildings, we further perform <b>plane regression</b>
-          on these
-          buildings in the instance map, yielding pseudo panoptic label GT. We futher define instance loss in
-          fine-tuning stage
-          to refine the instance geometry and enable more accurate panoptic label.</p>
+          semantic categorical logits. Our method allows for rendering panoptic labels by combining the learned semantic
+          field and a <b>fixed instance field</b> determined by the 3D bounding primitives. The losses applied to fixed
+          semantic field and fixed instance
+          field improve the volume density. The learned semantic loss serves to improve the 3D semantic predictions.</p>
       </div>
     </div>
   </div>
