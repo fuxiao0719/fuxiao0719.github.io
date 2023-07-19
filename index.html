@@ -331,19 +331,18 @@
                         labeling in the 2D image space is a highly labor-intensive process that falls short in providing
                         a comprehensive 3D understanding essential for rendering labels from different viewpoints. In
                         this paper, we present PanopticNeRF-360, which takes as input easy-to-obtain coarse 3D bounding
-                        primitives and noisy 2D semantic cues, to infer in 3D space to render spatio-temporally
+                        primitives and noisy 2D panoptic cues, to infer in 3D space to render spatio-temporally
                         consistent semantic and instance labels as well as high-fidelity imagery at arbitrary views.
                         Specifically, PanopticNeRF-360 combines MLP features and grid features to create hybrid scene
                         features, striking a balance between high-frequency appearance and largely contiguous semantics.
-                        We further propose a dual formulation of semantic fields to improve the underlying geometry and
-                        resolve label ambiguity in coarse 3D annotations across different semantic classes, while also
-                        filtering noise in the 2D predictions. Moreover, we construct a fixed instance field to render
-                        instance labels and utilize self-evolved line prior to address intersections between adjacent
-                        buildings. Experimental results demonstrate that PanopticNeRF-360 achieve state-of-the-art
-                        performance compared to existing label transfer methods on challenging urban scenes of the
-                        KITTI-360 dataset. Moreover, PanopticNeRF-360 enables the omnidirectional rendering of
-                        high-fidelity, multi-view and spatio-temporally consistent appearance, semantic and instance
-                        labels.The code is available at https://github.com/fuxiao0719/panopticnerf.
+                        We further propose to leverage fixed semantic and instance fields determined by the 3D bounding
+                        primitives to improve the underlying geometry. Meanwhile, we formulate a learned semantic field
+                        to resolve label ambiguity in coarse 3D annotations across different semantic classes, while
+                        also filtering noise in the 2D predictions. Experimental results demonstrate that
+                        PanopticNeRF-360 achieve state-of-the-art performance compared to existing label transfer
+                        methods on challenging urban scenes of the KITTI-360 dataset. Moreover, PanopticNeRF-360 enables
+                        the omnidirectional rendering of high-fidelity, multi-view and spatio-temporally consistent
+                        appearance, semantic and instance labels. The code will be available at https://github.com/fuxiao0719/panopticnerf.
                       </p>
                     </div>
                   </div>
