@@ -85,15 +85,14 @@
         <h3>Overall Framework</h3>
         <hr style="margin-top:0px">
         <img src="https://fuxiao0719.github.io/projects/panopticnerf360/images/method.png" alt="framework" width="100%">
-        <p class="text-left" style="margin-top:19px;font-size: 19px;">At each 3D location sampled in a 360 scene, we
-          formulate scene feature combining MLPs features and multi-resolution hash encoding features to unify their
-          merits, <b>inductive smoothness for semantics and expressive local details for appearance</b>. Then we
-          leverage <b>dual semantic fields</b>
-          to obtain two
-          semantic categorical logits. Our method allows for rendering panoptic labels by combining the learned semantic
-          field and a <b>fixed instance field</b> determined by the 3D bounding primitives. The losses applied to fixed
-          semantic and instance
-          field improve the geometry. The learned semantic loss serves to improve the 3D semantic predictions.</p>
+        <p class="text-left" style="margin-top:19px;font-size: 19px;">At each 3D location, we combine scene features
+          obtained from a deep MLP and multi-resolution hash grids to jointly model geometry, appearance and semantics.
+          We leverage <b>dual semantic fields</b> to obtain two semantic categorical logits. Our method allows for
+          rendering panoptic labels by combining the learned semantic field and a <b>fixed instance field</b> determined
+          by the 3D bounding primitives. The losses applied to fixed semantic and instance field improve the geometry.
+          The learned semantic loss serves to improve the 3D semantic predictions, which allows for resolving the label
+          ambiguity at the bbox intersection regions.
+        </p>
       </div>
     </div>
   </div>
