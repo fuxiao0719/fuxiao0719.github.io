@@ -1,37 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="description"
+    content="GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image">
+  <meta name="keywords" content="monocular depth and normal, diffusion models">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GeoWizard</title>
-  <!-- Bootstrap -->
-  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Geowizard">
+  <meta name="twitter:description"
+    content="GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image">
+  <meta name="twitter:creator" content="@AntonObukhov1">
+
+  <title>GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1FWSVCGZTG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-1FWSVCGZTG');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./css/twentytwenty.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="./images/favicon.svg">
+
+  <script src="./js/jquery-3.2.1.min.js"></script>
+  <script src="./js/jquery.event.move.js"></script>
+  <script src="./js/jquery.twentytwenty.js"></script>
+  <script src="./js/bulma-carousel.min.js"></script>
+  <script src="./js/bulma-slider.min.js"></script>
+  <script src="./js/fontawesome.all.min.js"></script>
+
+  <!--MathJax-->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
-<!-- cover -->
-<section>
-  <div class="jumbotron text-center mt-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image</h2>
-          <h4 style="color:#5a6268;">arXiv, 2024</h4>
-          <hr>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h4 class="title is-1 publication-title">GeoWizard: Unleashing the Diffusion Priors for
+              3D Geometry Estimation from a Single Image</h4>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://fuxiao0719.github.io/" target="_blank" rel="noopener noreferrer">
+                  Xiao Fu<sup>1*</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://yvanyin.net/" target="_blank" rel="noopener noreferrer">
+                  Wei Yin<sup>2*</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://github.com/JUGGHM" target="_blank" rel="noopener noreferrer">
+                  Mu Hu<sup>3*</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://wang-kx.github.io/" target="_blank" rel="noopener noreferrer">
+                  Kaixuan Wang<sup>3</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://yuexinma.me/" target="_blank" rel="noopener noreferrer">
+                  Yuexin Ma<sup>4</sup></a>,
+              </span>
+              <br>
+              <span class="author-block">
+                <a href="https://ece.hkust.edu.hk/pingtan" target="_blank" rel="noopener noreferrer">
+                  Ping Tan<sup>3,6</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://uav.hkust.edu.hk/group/" target="_blank" rel="noopener noreferrer">
+                  Shaojie Shen<sup>3</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="http://dahua.site/" target="_blank" rel="noopener noreferrer">
+                  Dahua Lin<sup>1†</sup></a>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.xxlong.site/" target="_blank" rel="noopener noreferrer">
+                  Xiaoxiao Long<sup>5,6†</sup></a>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup> CUHK <sup>2</sup> The University of Adelaide <sup>3</sup> HKUST
+                <sup>4</sup> ShanghaiTech University <sup>5</sup> HKU <sup>6</sup> Light Illusions <br></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://github.com/fuxiao0719/GeoWizard/blob/main/assets/paper.pdf" target="_blank" rel="noopener noreferrer"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf" style="color: orangered"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/fuxiao0719/GeoWizard" target="_blank" rel="noopener noreferrer"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (Coming Soon)</span>
+                  </a>
+                </span>
+                <!-- Colab Link. -->
+                <!-- <span class="link-block">
+                <a href="https://colab.research.google.com/drive/12G8reD13DdpMie5ZQlaFNo2WCGeNUH-u?usp=sharing" target="_blank" rel="noopener noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <img src="images/colab.svg">
+                  </span>
+                  <span>&nbsp;Google Colab</span>
+                </a>
+              </span> -->
+                <!-- Hugging Face.
+              <span class="link-block">
+                <a href="https://huggingface.co/spaces/toshas/marigold" target="_blank" rel="noopener noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      &#129303;
+                  </span>
+                  <span>Hugging Face</span>
+                </a>
+              </span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img id="teaser" width="100%" src="./images/teaser.png"
+          alt="Teaser image demonstrating Marigold depth estimation." />
+        <h2 class="subtitle has-text-centered">
+          GeoWizard generates high-frequency and SOTA depth and normal maps in the wild.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel-horizontal" class="carousel results-carousel">
+
+          <div class="twoitem">
+            <div class="twentytwenty-container twentytwenty-container-top">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/Bee_Collecting_Pollen_2004-08-14.jpg">
+              </div>
+              <div class="cmpcontent">
+                <img src="./images/inthewild/Bee_Collecting_Pollen_2004-08-14_ours.jpg">
+              </div>
+            </div>
+            <div class="twentytwenty-container twentytwenty-container-bottom">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/Bee_Collecting_Pollen_2004-08-14_leres.jpg">
+              </div>
+              <div class="cmpcontent">
+                <img src="./images/inthewild/Bee_Collecting_Pollen_2004-08-14_ours.jpg">
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <script>
+    $(window).on('load', function () {
+      bulmaCarousel.attach('#results-carousel-horizontal', {
+        slidesToScroll: 1,
+        slidesToShow: 3,
+        loop: true,
+        autoplay: true,
+      });
+
+      bulmaCarousel.attach('#results-carousel-vertical', {
+        slidesToScroll: 1,
+        slidesToShow: 5,
+        loop: true,
+        autoplay: true,
+      });
+
+      $(".twentytwenty-container-top").twentytwenty({
+        before_label: 'Input',
+        after_label: 'Ours',
+        default_offset_pct: 0.75,
+      });
+      $(".twentytwenty-container-bottom").twentytwenty({
+        before_label: 'LeRes',
+        after_label: 'Ours',
+        default_offset_pct: 0.5,
+      });
+    });
+  </script>
+
+  <section class="section pt-0" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Citation</h2>
+      <pre class="selectable"><code>
+        @article{fu2024geowizard,
+          title={GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image},
+          author={Fu, Xiao and Yin, Wei and Hu, Mu and Wang, Kaixuan and Ma, Yuexin and Tan, Ping and Shen, Shaojie and Lin, Dahua and Long, Xiaoxiao},
+          journal = {arxiv},
+          year = {2024}
+        }
+}</code></pre>
+    </div>
+  </section>
 
 
-
-<footer class="text-center" style="margin-bottom:10px">
-  Thanks to <a href="https://lioryariv.github.io/" target="_blank">Lior Yariv</a> for the website template.
-</footer>
+  <footer class="footer pt-4 pb-0">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Website template based on
+              <a href="https://github.com/nerfies/nerfies.github.io">
+                Nerfies
+              </a>
+              and licensed under
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                CC-BY-SA-4.0
+              </a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
