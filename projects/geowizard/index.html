@@ -187,7 +187,7 @@
         <div id="results-carousel-horizontal" class="carousel results-carousel">
 
           <div class="twoitem">
-            <div class="twentytwenty-container twentytwenty-container-top">
+            <div class="twentytwenty-container twentytwenty-container-depth-top">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_rgb.jpg">
               </div>
@@ -195,7 +195,7 @@
                 <img src="./images/inthewild/1_ours_depth.jpg">
               </div>
             </div>
-            <div class="twentytwenty-container twentytwenty-container-bottom">
+            <div class="twentytwenty-container twentytwenty-container-depth-bottom">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_marigold.jpg">
               </div>
@@ -206,7 +206,7 @@
           </div>
 
           <div class="twoitem">
-            <div class="twentytwenty-container twentytwenty-container-top">
+            <div class="twentytwenty-container twentytwenty-container-normal-top">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_rgb.jpg">
               </div>
@@ -214,7 +214,7 @@
                 <img src="./images/inthewild/1_ours_normal.jpg">
               </div>
             </div>
-            <div class="twentytwenty-container twentytwenty-container-bottom">
+            <div class="twentytwenty-container twentytwenty-container-normal-bottom">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_omnidata.jpg">
               </div>
@@ -245,14 +245,24 @@
         autoplay: true,
       });
 
-      $(".twentytwenty-container-top").twentytwenty({
+      $(".twentytwenty-container-depth-top").twentytwenty({
         before_label: 'Input',
-        after_label: 'Ours Depth/Normal',
+        after_label: 'Ours Depth',
         default_offset_pct: 0.75,
       });
-      $(".twentytwenty-container-bottom").twentytwenty({
+      $(".twentytwenty-container-depth-bottom").twentytwenty({
         before_label: 'Marigold',
         after_label: 'DepthAnything',
+        default_offset_pct: 0.5,
+      });
+      $(".twentytwenty-container-normal-top").twentytwenty({
+        before_label: 'Input',
+        after_label: 'Ours Normal',
+        default_offset_pct: 0.75,
+      });
+      $(".twentytwenty-container-normal-bottom").twentytwenty({
+        before_label: 'Omnidata V2',
+        after_label: 'DSINE',
         default_offset_pct: 0.5,
       });
     });
