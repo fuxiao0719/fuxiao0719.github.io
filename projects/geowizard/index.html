@@ -198,50 +198,54 @@
         <div id="results-carousel-horizontal" class="carousel results-carousel">
 
           <div class="twoitem">
-            <div class="twentytwenty-container twentytwenty-container-depth-top">
+            <div class="twentytwenty-container">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_rgb.jpg">
               </div>
+            </div>
+            <div class="twentytwenty-container twentytwenty-container-geometry-bottom">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_ours_depth.jpg">
-              </div>
-            </div>
-            <div class="twentytwenty-container twentytwenty-container-depth-bottom">
-              <div class="cmpcontent">
-                <img src="./images/inthewild/1_marigold.jpg">
-              </div>
-              <div class="cmpcontent">
-                <img src="./images/inthewild/1_depthany.jpg">
-              </div>
-            </div>
-          </div>
-
-          <div class="twoitem">
-            <div class="twentytwenty-container">
-              <div class="cmpcontent">
-                <img src="./images/inthewild/1_rgb.jpg">
-              </div>
-            </div>
-            <div class="twentytwenty-container">
-              <div class="cmpcontent">
-                <img src="./images/inthewild/1_marigold.jpg">
-              </div>
-            </div>
-          </div>
-
-          <div class="twoitem">
-            <div class="twentytwenty-container twentytwenty-container-normal-top">
-              <div class="cmpcontent">
-                <img src="./images/inthewild/1_rgb.jpg">
               </div>
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_ours_normal.jpg">
               </div>
             </div>
-            <div class="twentytwenty-container twentytwenty-container-normal-bottom">
+          </div>
+
+          <div class="twoitem">
+            <div class="twentytwenty-container">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/1_ours_depth.jpg">
+              </div>
+            </div>
+            <div class="twentytwenty-container">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/1_ours_normal.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="twoitem">
+            <div class="twentytwenty-container">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/1_marigold.jpg">
+              </div>
+            </div>
+            <div class="twentytwenty-container">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_omnidata.jpg">
               </div>
+            </div>
+          </div>
+
+          <div class="twoitem">
+            <div class="twentytwenty-container">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/1_depthany.jpg">
+              </div>
+            </div>
+            <div class="twentytwenty-container">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_dsine.jpg">
               </div>
@@ -1012,6 +1016,11 @@
       $(".twentytwenty-container-normal-bottom").twentytwenty({
         before_label: 'Omnidata V2',
         after_label: 'DSINE',
+        default_offset_pct: 0.5,
+      });
+      $(".twentytwenty-container-geometry-bottom").twentytwenty({
+        before_label: 'Depth',
+        after_label: 'Normal',
         default_offset_pct: 0.5,
       });
     });
