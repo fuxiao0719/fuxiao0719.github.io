@@ -203,36 +203,26 @@
                 <img src="./images/inthewild/1_rgb.jpg">
               </div>
             </div>
-            <div class="twentytwenty-container twentytwenty-container-geometry-bottom">
+            <div class="twentytwenty-container">
               <div class="cmpcontent">
-                <img src="./images/inthewild/1_ours_depth.jpg">
-              </div>
-              <div class="cmpcontent">
-                <img src="./images/inthewild/1_ours_normal.jpg">
+                <img src="./images/inthewild/1_rgb_blank.jpg">
               </div>
             </div>
           </div>
 
           <div class="twoitem">
-            <div class="twentytwenty-container">
+            <div class="twentytwenty-container twentytwenty-container-depth-left">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_ours_depth.jpg">
               </div>
-            </div>
-            <div class="twentytwenty-container">
-              <div class="cmpcontent">
-                <img src="./images/inthewild/1_ours_normal.jpg">
-              </div>
-            </div>
-          </div>
-
-          <div class="twoitem">
-            <div class="twentytwenty-container">
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_marigold.jpg">
               </div>
             </div>
-            <div class="twentytwenty-container">
+            <div class="twentytwenty-container twentytwenty-container-normal-left">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/1_ours_normal.jpg">
+              </div>
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_omnidata.jpg">
               </div>
@@ -240,12 +230,18 @@
           </div>
 
           <div class="twoitem">
-            <div class="twentytwenty-container">
+            <div class="twentytwenty-container twentytwenty-container-depth-right">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/1_ours_depth.jpg">
+              </div>
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_depthany.jpg">
               </div>
             </div>
-            <div class="twentytwenty-container">
+            <div class="twentytwenty-container twentytwenty-container-normal-right">
+              <div class="cmpcontent">
+                <img src="./images/inthewild/1_ours_normal.jpg">
+              </div>
               <div class="cmpcontent">
                 <img src="./images/inthewild/1_dsine.jpg">
               </div>
@@ -1001,26 +997,41 @@
       $(".twentytwenty-container-depth-top").twentytwenty({
         before_label: 'Input',
         after_label: 'Ours Depth',
-        default_offset_pct: 0.75,
+        default_offset_pct: 0.55,
       });
       $(".twentytwenty-container-depth-bottom").twentytwenty({
         before_label: 'Marigold',
         after_label: 'DepthAnything',
         default_offset_pct: 0.5,
       });
+      $(".twentytwenty-container-depth-left").twentytwenty({
+        before_label: 'Ours Depth',
+        after_label: 'Marigold',
+        default_offset_pct: 0.5,
+      });
+      $(".twentytwenty-container-depth-right").twentytwenty({
+        before_label: 'Ours Depth',
+        after_label: 'DepthAnything',
+        default_offset_pct: 0.5,
+      });
       $(".twentytwenty-container-normal-top").twentytwenty({
         before_label: 'Input',
         after_label: 'Ours Normal',
-        default_offset_pct: 0.75,
+        default_offset_pct: 0.5,
       });
       $(".twentytwenty-container-normal-bottom").twentytwenty({
         before_label: 'Omnidata V2',
         after_label: 'DSINE',
         default_offset_pct: 0.5,
       });
-      $(".twentytwenty-container-geometry-bottom").twentytwenty({
-        before_label: 'Depth',
-        after_label: 'Normal',
+      $(".twentytwenty-container-normal-left").twentytwenty({
+        before_label: 'Ours Normal',
+        after_label: 'Omnidata v2',
+        default_offset_pct: 0.5,
+      });
+      $(".twentytwenty-container-normal-right").twentytwenty({
+        before_label: 'Ours Normal',
+        after_label: 'DSINE',
         default_offset_pct: 0.5,
       });
     });
