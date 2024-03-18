@@ -1497,8 +1497,8 @@
       bulmaCarousel.attach('#results-carousel-horizontal', {
         slidesToScroll: 4,
         slidesToShow: 4,
-        loop: false,
-        autoplay: false,
+        loop: true,
+        autoplay: true,
       });
       $(".twentytwenty-container-depth-left").twentytwenty({
         before_label: 'Ours Depth',
@@ -1531,9 +1531,9 @@
           <h2 class="title is-3">3D Reconstruction Comparison</h2>
           <div class="content has-text-justified">
 
-            <p>
-              We utilize BiNI algorithm to reconstruct 3D mesh from estimated single normal map.
-            </p>
+            <h5 class="title has-text-centered">
+              We utilize BiNI algorithm to reconstruct 3D mesh from estimated normal map.
+            </h5>
 
             <img id="method_train" width="100%" src="./images/3d_recon_comparison.png"
               alt="3d reconstruction comparison" />
