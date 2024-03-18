@@ -8,12 +8,12 @@ for i in range(22):
 <div class="twoitem">
     <div class="twentytwenty-container">
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_rgb.jpg">
+        <img src="./images/inthewild/21_rgb.jpg">
         </div>
     </div>
     <div class="twentytwenty-container">
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_rgb_blank.jpg">
+        <img src="./images/inthewild/21_rgb_blank.jpg">
         </div>
     </div>
 </div>
@@ -21,12 +21,12 @@ for i in range(22):
 <div class="twoitem">
     <div class="twentytwenty-container">
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_ours_depth.jpg">
+        <img src="./images/inthewild/21_ours_depth.jpg">
         </div>
     </div>
     <div class="twentytwenty-container">
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_ours_normal.jpg">
+        <img src="./images/inthewild/21_ours_normal.jpg">
         </div>
     </div>
 </div>
@@ -34,18 +34,18 @@ for i in range(22):
 <div class="twoitem">
     <div class="twentytwenty-container twentytwenty-container-depth-left">
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_ours_depth.jpg">
+        <img src="./images/inthewild/21_ours_depth.jpg">
         </div>
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_marigold.jpg">
+        <img src="./images/inthewild/21_marigold.jpg">
         </div>
     </div>
     <div class="twentytwenty-container twentytwenty-container-normal-left">
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_ours_normal.jpg">
+        <img src="./images/inthewild/21_ours_normal.jpg">
         </div>
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_omnidata.jpg">
+        <img src="./images/inthewild/21_omnidata.jpg">
         </div>
     </div>
 </div>
@@ -53,18 +53,18 @@ for i in range(22):
 <div class="twoitem">
     <div class="twentytwenty-container twentytwenty-container-depth-right">
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_ours_depth.jpg">
+        <img src="./images/inthewild/21_ours_depth.jpg">
         </div>
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_depthany.jpg">
+        <img src="./images/inthewild/21_depthany.jpg">
         </div>
     </div>
     <div class="twentytwenty-container twentytwenty-container-normal-right">
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_ours_normal.jpg">
+        <img src="./images/inthewild/21_ours_normal.jpg">
         </div>
         <div class="cmpcontent">
-        <img src="./images/inthewild/7_dsine.jpg">
+        <img src="./images/inthewild/21_dsine.jpg">
         </div>
     </div>
 </div>
