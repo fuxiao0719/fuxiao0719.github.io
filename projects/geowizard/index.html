@@ -1541,13 +1541,11 @@
           </div>
         </div>
       </div>
-      <!--/ Method. -->
     </div>
   </section>
 
   <section class="section">
     <div class="container is-max-desktop">
-      <!-- Method. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Novel View Synthesis Comparison</h2>
@@ -1557,13 +1555,36 @@
               We utilize depth guided 3D-photo-inpainting to render novel view.
             </h5>
 
-            <img id="method_train" width="100%" src="./images/nvs.png"
-              alt="3d reconstruction comparison" />
+            <img id="method_train" width="100%" src="./images/nvs.png" alt="3d reconstruction comparison" />
 
           </div>
         </div>
       </div>
-      <!--/ Method. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overall Framework</h2>
+          <div class="content has-text-justified">
+
+            <p>
+              During fine-tuning, GeoWizard encodes the image, GT depth, and GT normal through the frozen VAE into
+              latent space and forms two concatenated geometric groups. Each group is fed into the U-Net to generate the
+              output in
+              depth or normal domain under the guide of a geometry switcher. Additionally, the scene prompt is
+              introduced to produce results with one of three possible scene layouts
+              (indoor/outdoor/object). During inference, given an image, a scene prompt, initial depth noise and
+              normal noise, GeoWizard can generate high-quality depth and normal jointly.
+            </p>
+
+            <img id="method_train" width="100%" src="./images/piepline.png" alt="3d reconstruction comparison" />
+
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -1580,8 +1601,6 @@
       </code></pre>
     </div>
   </section>
-
-
 
   <footer class="footer pt-4 pb-0">
     <div class="container">
