@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content=".">
+    <meta name="keywords" content="3DTrajMaster, controllable video generation, 3D motion control">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3DTrajMaster</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="./static/css/twentytwenty.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./img/logo.png">
+
+    <script src="./static/js/jquery-3.2.1.min.js"></script>
+    <script src="./static/js/jquery.event.move.js"></script>
+    <script src="./static/js/jquery.twentytwenty.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/fontawesome.all.min.js"></script>
+</head>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKCDBW8851"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-LKCDBW8851');
+</script>
+
+
+<body>
+
+    <section class="hero teaser ">
+        <div class="hero-body">
+            <div class="container is-max-desktop has-text-centered">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered ">
+                        <img src="img/logo.png" style="height:170px; margin-bottom: -10px;"></img>
+                        <h2 class="title is-1 publication-title has-text-centered">
+                            Mastering 3D Trajectory for Multi-Entity Motion in Video Generation
+                        </h2>
+                        <h2 class="title publication-title is-4 has-text-grey">ARXIV 2024</h2>
+                        <div class="is-size-5 publication-authors">
+
+                            <span class="author-block">
+                                <a href="https://fuxiao0719.github.io/">Xiao Fu</a><sup>1 &dagger;</sup> 
+                            </span>
+
+                            <span class="author-block">
+                                <a href="https://alvinliu0.github.io/">Xian Liu</a><sup>1</sup>
+                            </span>
+
+                            <span class="author-block">
+                                <a href="https://xinntao.github.io/">Xintao Wang</a><sup>2&#9993</sup>
+                            </span>
+
+                            <span class="author-block">
+                                <a href="https://pengsida.net/">Sida Peng</a><sup>3</sup>
+                            </span>
+
+                            <span class="author-block">
+                                <a href="https://menghanxia.github.io/">Menghan Xia</a><sup>2</sup>
+                            </span>
+
+                            <span class="author-block">
+                                <a href="https://xiaoyushi97.github.io/">Xiaoyu Shi</a><sup>2</sup>
+                            </span>
+
+                            <span class="author-block">
+                                <a href="https://scholar.google.ru/citations?user=fWxWEzsAAAAJ&hl=en">Ziyang Yuan</a><sup>2</sup>
+                            </span>
+
+
+                            <br>
+
+                            <span class="author-block">
+                                <a href="https://scholar.google.com/citations?user=P6MraaYAAAAJ&hl=en">Pengfei Wan</a><sup>2</sup>
+                            </span>
+
+                            <span class="author-block">
+                                <a href="https://openreview.net/profile?id=~Di_ZHANG3">Di Zhang</a><sup>2</sup>
+                            </span>
+
+                            <span class="author-block">
+                                <a href="http://dahua.site/">Dahua Lin</a><sup>1&#9993</sup>
+                            </span>
+  
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>1</sup>The Chinese University of Hong Kong</span>
+                            <span class="author-block"><sup>2</sup>Kuaishou Technology</span>
+                            <span class="author-block"><sup>3</sup>Zhejiang University</span>
+                        </div>
+
+                        <div class="is-size-6 publication-authors">
+                            <span class="author-block"><sup>&dagger;</sup>Intern at KwaiVGI, Kuaishou Technology</span>
+                            <span class="author-block"><sup>&#9993</sup> Corresponding Author</span>
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- PDF Link. -->
+                                <span class="link-block">
+                                    <a href="pdf/DepthCrafter.pdf"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Paper</span>
+                                    </a>
+                                </span>
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2409.02095"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
+
+                                <span class="link-block">
+                                    <a href="https://github.com/Tencent/DepthCrafter"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                    <!-- <a href="https://huggingface.co/spaces/tencent/DepthCrafter" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            &#129303;
+                                        </span>
+                                        <span>Hugging Face Demo</span>
+                                    </a> -->
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container" style="text-align: center; ">
+        <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
+
+            <video muted autoplay="autoplay" loop="loop" width="90%" preload controls>
+                <source src="./video/teaser.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <br>
+
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <h4 class="subtitle has-text-centered">
+                    <div class="content has-text-justified">
+                        <p>
+                            3DTrajMaster controls <b><span style="color: #4FACFA;">one or multiple entity motions in 3D
+                                    space with entity-specific 3D
+                                    trajectories</span></b> for text-to-video (T2V) generation. It has following
+                            features:
+                        <ul type="1">
+                            <li><b>6 Domain of Freedom (DoF)</b>: Control 3D entity location and orientation
+                            <li><b>Diverse Entities</b>: Human, animal, robot, car, even abstract fire, breeze etc
+                            <li><b>Diverse Background</b>: City, forest, desert, gym, sunset beach, glacier, hall,
+                                night city, etc
+                            <li><b>Complex 3D trajectories</b>: 3D occlusion, rotating in place, 180°/continuous 90°
+                                turnings, etc
+                            <li><b>Fine-grained Entity Prompt</b>: Change human hair, clothing, gender, figure size,
+                                accessory, etc
+                        </ul>
+                        <p>
+
+                        </p>
+                    </div>
+                </h4>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        $(window).on('load', function () {
+            bulmaCarousel.attach('#results-carousel-horizontal', {
+                slidesToScroll: 1,
+                slidesToShow: 1,
+                loop: true,
+                autoplay: false,
+            });
+
+            bulmaCarousel.attach('#results-carousel-vertical', {
+                slidesToScroll: 1,
+                slidesToShow: 1,
+                loop: true,
+                autoplay: false,
+            });
+
+        });
+    </script>
+
+    <section class="section" style="margin-top: 0; padding-top: 50px;">
+
+        <div class="container" style="text-align: center; ">
+            <h2 class="title is-4" style="text-align: center;">Control Entity Motion with <span
+                    style="color: #4FACFA;">Diverse Entities</span></h2>
+
+            <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
+
+                <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                    <source src="./video/diverse_entity/demo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container" style="text-align: center; ">
+            <h2 class="title is-4" style="text-align: center;">Control Entity Motion with <span
+                    style="color: #4FACFA;">Diverse Background</span></h2>
+
+            <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
+
+                <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                    <source src="./video/diverse_background/demo.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="hero-body">
+            <div class="container" style="text-align: left; ">
+
+                <h2 class="title is-4" style="text-align: center;">Control Multi-Entity Motion with <span
+                        style="color: #4FACFA;">Complex 3D trajectories</span> </h2>
+                <h2 class="title is-5" style="text-align: center;">(we provide 20 trajectory cases with one, two and
+                    three entities)</h2>
+
+                <div id="results-carousel-horizontal" class="carousel results-carousel">
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n13.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n3.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t3n9.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t1n18.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n11.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n22.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t3n3.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t1n13.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n10.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n21.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div id="results-carousel-horizontal" class="carousel results-carousel">
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n7.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n9.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t3n8.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t1n6.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n1.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n15.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t3n1.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t1n2.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t3n7.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                        <source src="./video/complex_traj/t2n17.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="container" style="text-align: center; ">
+            <h2 class="title is-4" style="text-align: center;">Control Entity Motion with <span
+                    style="color: #4FACFA;">Fine-grained Entity Prompt Editing</span></h2>
+            <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
+
+                <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                    <source src="./video/finegrain_human/demo.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container" style="text-align: center; ">
+            <h2 class="title is-4" style="text-align: center;">Comparison with Tora and Direct-a-Video</h2>
+
+
+            <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
+                <img id="overview" width="65%" src="./img/finecontrol_comp.png" />
+                <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
+                    <source src="./video/comparison_sota/demo.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container" style="text-align: center; ">
+            <h2 class="title is-4" style="text-align: center;">Comparison with TC4D</h2>
+
+
+            <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
+
+                <video muted autoplay="autoplay" loop="loop" width="85%" preload controls>
+                    <source src="./video/comparison_tc4d/demo.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+
+        <br>
+
+    </section>
+
+
+    <br>
+
+    <section class="hero teaser">
+        <div class="hero-body">
+            <!-- Method. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-three-fifths" style=" margin-top: 30px; margin-bottom: 20px;">
+                        <h2 class="title is-3">Method</h2>
+                        <div class="content has-text-justified">
+
+
+                            <div class="hero-body" style="margin-top: 40px; margin-bottom: -30px;">
+                                <img id="overview" width="100%" src="./img/pipeline.png" />
+                            </div>
+                            Given a text prompt consisting of N entities, 3DTrajMaster (a) is
+                            able to generate the desired video with entity motions that conform to the input entity-wise
+                            pose sequences.
+                            Specifically, it involves two training phases.
+                            First, it utilizes a domain adaptor to mitigate the negative impact of training videos.
+                            Then, an object injector module is inserted after the 2D spatial self-attention layer to
+                            integrate paired entity prompts and 3D trajectories.
+                            (b) Details of the object injection process.
+                            The entities are projected into latent embeddings through the text encoder. The paired pose
+                            sequences are projected using a learnable pose encoder and then fused with entity embeddings
+                            to form entity-trajectory correspondences.
+                            This condition embedding is concatenated with the video latent and fed into a gated
+                            self-attention layer for motion fusion.
+                            Finally, the modified latent gets back to the remaining layers in the DiT block.
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="hero-body">
+            <div class="columns is-two-fifths is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                            Website template credit to <a
+                                href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, and is licensed under a
+                            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                                Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
