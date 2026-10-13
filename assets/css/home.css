@@ -64,8 +64,8 @@ body.home {
 .home .home-content { margin-top: 28px; }
 .home .post-header { margin-bottom: 16px; }
 .home .post-title { margin: 0; font-size: clamp(28px, 3.5vw, 34px); font-weight: 600; letter-spacing: -1.2px; line-height: 1.25; }
-.home .name-chinese { margin-left: 10px; color: var(--global-text-color-light); font-size: .65em; font-weight: 400; letter-spacing: .04em; }
-.home .intro { display: grid; grid-template-columns: minmax(0, 1fr) 150px; gap: 32px; align-items: start; }
+.home .name-chinese { margin-left: 10px; color: var(--global-text-color-light); font-size: .8em; font-weight: 400; letter-spacing: .04em; }
+.home .intro { display: grid; grid-template-columns: minmax(0, 1fr) 170px; gap: 32px; align-items: start; }
 .home .portrait { grid-column: 2; grid-row: 1; padding-top: 4px; }
 .home .portrait img { display: block; width: 100%; height: auto; border-radius: 8px; }
 .home .biography { grid-column: 1; grid-row: 1; }
@@ -78,7 +78,7 @@ body.home {
   border-top: 1px solid var(--global-divider-color);
 }
 .home h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.35; font-weight: 600; letter-spacing: -.5px; }
-.home .section-note { margin: -6px 0 16px; color: var(--global-text-color-light); font-size: 14px; }
+.home .section-note { margin: -6px 0 16px; color: var(--global-text-color-light); font-size: 15px; }
 .home .news-scroll { max-height: 168px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--global-divider-color) transparent; }
 .home .news table td, .home .honors table td { padding: 4px 0; font-size: 14px; font-weight: 400; line-height: 1.5; }
 .home .news table .date { width: 118px; padding-right: 18px; color: var(--global-text-color-light); white-space: nowrap; font-variant-numeric: tabular-nums; }
@@ -130,7 +130,7 @@ body.home {
 @media (max-width: 767px) {
   .home .container { padding-inline: 24px; }
   .home .home-content { margin-top: 24px; }
-  .home .intro { grid-template-columns: minmax(0, 1fr) 120px; gap: 24px; }
+  .home .intro { grid-template-columns: minmax(0, 1fr) 140px; gap: 24px; }
   .home .publications .row { grid-template-columns: 160px minmax(0, 1fr); gap: 18px; }
 }
 
@@ -142,7 +142,7 @@ body.home {
   .home .post-header { margin-bottom: 16px; }
   .home .intro { display: flow-root; }
   .home .portrait { float: right; margin: 0 0 8px 16px; padding: 0; }
-  .home .portrait img { width: 84px; }
+  .home .portrait img { width: 96px; }
   .home .news, .home .publications, .home .honors { margin-top: 22px; padding-top: 16px; }
   .home h2 { font-size: 20px; }
   .home .news table .date { width: 102px; padding-right: 12px; font-size: 12px; }
