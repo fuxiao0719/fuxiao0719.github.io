@@ -69,8 +69,11 @@
             rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
           <a href="https://github.com/fuxiao0719" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i
               class="fab fa-github"></i></a>
-          <a href="https://x.com/lemonaddie0909" aria-label="X / Twitter" target="_blank" rel="noopener noreferrer"><i
-              class="fab fa-twitter"></i></a>
+          <a href="https://x.com/lemonaddie0909" aria-label="X" title="X" target="_blank" rel="noopener noreferrer">
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.64 7.584H.47l8.6-9.835L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+            </svg>
+          </a>
 
         </div>
 
@@ -596,6 +599,95 @@
                 <div class="col-md-3">
 
                   <div class="img-fluid rounded">
+                    <img src="/assets/teaser/recammaster.gif"
+                      alt="ReCamMaster: Camera-Controlled Generative Rendering from A Single Video"
+                      style="width: 100%;">
+                  </div>
+
+                </div>
+
+                <div id="Bai2025ReCamMaster" class="col-md-9">
+
+                  <div class="title">ReCamMaster: Camera-Controlled Generative Rendering from A Single Video
+                  </div>
+
+                  <div class="author">
+                    <a href="https://jianhongbai.github.io/" target="_blank" rel="noopener noreferrer">Jianhong
+                      Bai</a>,
+                    <a href="https://menghanxia.github.io/" target="_blank" rel="noopener noreferrer">Menghan Xia</a>,
+                    <strong><u>Xiao Fu</u></strong>,
+                    <a href="https://xinntao.github.io/" target="_blank" rel="noopener noreferrer">Xintao Wang</a>,
+                    <a href="https://scholar.google.com/citations?user=dCik-2YAAAAJ&hl=en" target="_blank"
+                      rel="noopener noreferrer">Lianrui Mu</a>,
+                    <a href="https://openreview.net/profile?id=~Jinwen_Cao1" target="_blank"
+                      rel="noopener noreferrer">Jinwen Cao</a>,
+                    <a href="https://person.zju.edu.cn/en/lzz" target="_blank" rel="noopener noreferrer">Zuozhu
+                      Liu</a>,
+                    <a href="https://person.zju.edu.cn/en/huhaoji" target="_blank" rel="noopener noreferrer">Haoji
+                      Hu</a>,
+                    <a href="https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=en" target="_blank"
+                      rel="noopener noreferrer">Xiang Bai</a>,
+                    <a href="https://scholar.google.com/citations?user=P6MraaYAAAAJ&hl=en" target="_blank"
+                      rel="noopener noreferrer">Pengfei Wan</a>,
+                    <a href="https://openreview.net/profile?id=~Di_ZHANG3" target="_blank" rel="noopener noreferrer">Di
+                      Zhang</a>
+                  </div>
+
+                  <div style="margin-bottom: 0px;">
+                    <strong> <span class="venue"> ICCV 2025</span> </strong>
+                    <strong> <span class="award"> (Best Paper Award Candidate, Top
+                        13/11,239)</span></strong>
+                  </div>
+
+                  <div class="links">
+                    <button class="abstract btn btn-sm z-depth-0" type="button" aria-expanded="false">Abstract</button>
+                    <a href="https://arxiv.org/pdf/2503.11647" class="btn btn-sm z-depth-0" role="button"
+                      target="_blank" rel="noopener noreferrer">PDF</a>
+                    <a href="https://jianhongbai.github.io/ReCamMaster/" class="btn btn-sm z-depth-0" role="button"
+                      target="_blank" rel="noopener noreferrer">Website</a>
+                    <a href="https://huggingface.co/datasets/KwaiVGI/MultiCamVideo-Dataset" class="btn btn-sm z-depth-0"
+                      role="button" target="_blank" rel="noopener noreferrer">Dataset</a>
+                    <a href="https://x.com/_akhaliq/status/1901478521085501612" class="btn btn-sm z-depth-0"
+                      role="button" target="_blank" rel="noopener noreferrer">AK Tweet</a>
+                    <a href="https://github.com/KwaiVGI/ReCamMaster"><img
+                        src="https://img.shields.io/github/stars/KwaiVGI/ReCamMaster" alt="License" target="_blank"></a>
+                    <!-- <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=BFrwjwgAAAAJ&citation_for_view=BFrwjwgAAAAJ:b1wdh0AR-JQC'
+                      style="text-decoration: none; outline: none;"><img
+                        src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Flemonaddie%2Flemonaddie.github.io@google-scholar-stats%2FBFrwjwgAAAAJ:b1wdh0AR-JQC_shieldsio.json&labelColor=ffffff&color=5383ec&style=plastic&label=Citations"
+                        alt="License" target="_blank"></a> -->
+                  </div>
+
+                  <div class="abstract hidden">
+                    <p>Camera control has been actively studied in text or image conditioned video generation tasks.
+                      However, altering camera trajectories of a given video remains under-explored, despite its
+                      importance in the field of video creation. It is non-trivial due to the extra constraints of
+                      maintaining multiple-frame appearance and dynamic synchronization. To address this, we present
+                      ReCamMaster, a camera-controlled generative video re-rendering framework that reproduces the
+                      dynamic scene of an input video at novel camera trajectories. The core innovation lies in
+                      harnessing the generative capabilities of pre-trained text-to-video models through a simple yet
+                      powerful video conditioning mechanism -- its capability often overlooked in current research. To
+                      overcome the scarcity of qualified training data, we construct a comprehensive multi-camera
+                      synchronized video dataset using Unreal Engine 5, which is carefully curated to follow
+                      real-world filming characteristics, covering diverse scenes and camera movements. It helps the
+                      model generalize to in-the-wild videos. Lastly, we further improve the robustness to diverse
+                      inputs through a meticulously designed training strategy. Extensive experiments tell that our
+                      method substantially outperforms existing state-of-the-art approaches and strong baselines. Our
+                      method also finds promising applications in video stabilization, super-resolution, and
+                      outpainting. </p>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ol>
+
+          <ol class="bibliography">
+            <li>
+              <div class="row">
+                <div class="col-md-3">
+
+                  <div class="img-fluid rounded">
                     <img src="/assets/teaser/3dtrajmaster.gif"
                       alt="3DTrajMaster: Mastering 3D Trajectory for Multi-Entity Motion in Video Generation"
                       style="width: 100%;">
@@ -845,94 +937,7 @@
             </li>
           </ol>
 
-          <ol class="bibliography">
-            <li>
-              <div class="row">
-                <div class="col-md-3">
 
-                  <div class="img-fluid rounded">
-                    <img src="/assets/teaser/recammaster.gif"
-                      alt="ReCamMaster: Camera-Controlled Generative Rendering from A Single Video"
-                      style="width: 100%;">
-                  </div>
-
-                </div>
-
-                <div id="Bai2025ReCamMaster" class="col-md-9">
-
-                  <div class="title">ReCamMaster: Camera-Controlled Generative Rendering from A Single Video
-                  </div>
-
-                  <div class="author">
-                    <a href="https://jianhongbai.github.io/" target="_blank" rel="noopener noreferrer">Jianhong
-                      Bai</a>,
-                    <a href="https://menghanxia.github.io/" target="_blank" rel="noopener noreferrer">Menghan Xia</a>,
-                    <strong><u>Xiao Fu</u></strong>,
-                    <a href="https://xinntao.github.io/" target="_blank" rel="noopener noreferrer">Xintao Wang</a>,
-                    <a href="https://scholar.google.com/citations?user=dCik-2YAAAAJ&hl=en" target="_blank"
-                      rel="noopener noreferrer">Lianrui Mu</a>,
-                    <a href="https://openreview.net/profile?id=~Jinwen_Cao1" target="_blank"
-                      rel="noopener noreferrer">Jinwen Cao</a>,
-                    <a href="https://person.zju.edu.cn/en/lzz" target="_blank" rel="noopener noreferrer">Zuozhu
-                      Liu</a>,
-                    <a href="https://person.zju.edu.cn/en/huhaoji" target="_blank" rel="noopener noreferrer">Haoji
-                      Hu</a>,
-                    <a href="https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=en" target="_blank"
-                      rel="noopener noreferrer">Xiang Bai</a>,
-                    <a href="https://scholar.google.com/citations?user=P6MraaYAAAAJ&hl=en" target="_blank"
-                      rel="noopener noreferrer">Pengfei Wan</a>,
-                    <a href="https://openreview.net/profile?id=~Di_ZHANG3" target="_blank" rel="noopener noreferrer">Di
-                      Zhang</a>
-                  </div>
-
-                  <div style="margin-bottom: 0px;">
-                    <strong> <span class="venue"> ICCV 2025</span> </strong>
-                    <strong> <span class="award"> (Best Paper Award Candidate, Top
-                        13/11,239)</span></strong>
-                  </div>
-
-                  <div class="links">
-                    <button class="abstract btn btn-sm z-depth-0" type="button" aria-expanded="false">Abstract</button>
-                    <a href="https://arxiv.org/pdf/2503.11647" class="btn btn-sm z-depth-0" role="button"
-                      target="_blank" rel="noopener noreferrer">PDF</a>
-                    <a href="https://jianhongbai.github.io/ReCamMaster/" class="btn btn-sm z-depth-0" role="button"
-                      target="_blank" rel="noopener noreferrer">Website</a>
-                    <a href="https://huggingface.co/datasets/KwaiVGI/MultiCamVideo-Dataset" class="btn btn-sm z-depth-0"
-                      role="button" target="_blank" rel="noopener noreferrer">Dataset</a>
-                    <a href="https://x.com/_akhaliq/status/1901478521085501612" class="btn btn-sm z-depth-0"
-                      role="button" target="_blank" rel="noopener noreferrer">AK Tweet</a>
-                    <a href="https://github.com/KwaiVGI/ReCamMaster"><img
-                        src="https://img.shields.io/github/stars/KwaiVGI/ReCamMaster" alt="License" target="_blank"></a>
-                    <!-- <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=BFrwjwgAAAAJ&citation_for_view=BFrwjwgAAAAJ:b1wdh0AR-JQC'
-                      style="text-decoration: none; outline: none;"><img
-                        src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Flemonaddie%2Flemonaddie.github.io@google-scholar-stats%2FBFrwjwgAAAAJ:b1wdh0AR-JQC_shieldsio.json&labelColor=ffffff&color=5383ec&style=plastic&label=Citations"
-                        alt="License" target="_blank"></a> -->
-                  </div>
-
-                  <div class="abstract hidden">
-                    <p>Camera control has been actively studied in text or image conditioned video generation tasks.
-                      However, altering camera trajectories of a given video remains under-explored, despite its
-                      importance in the field of video creation. It is non-trivial due to the extra constraints of
-                      maintaining multiple-frame appearance and dynamic synchronization. To address this, we present
-                      ReCamMaster, a camera-controlled generative video re-rendering framework that reproduces the
-                      dynamic scene of an input video at novel camera trajectories. The core innovation lies in
-                      harnessing the generative capabilities of pre-trained text-to-video models through a simple yet
-                      powerful video conditioning mechanism -- its capability often overlooked in current research. To
-                      overcome the scarcity of qualified training data, we construct a comprehensive multi-camera
-                      synchronized video dataset using Unreal Engine 5, which is carefully curated to follow
-                      real-world filming characteristics, covering diverse scenes and camera movements. It helps the
-                      model generalize to in-the-wild videos. Lastly, we further improve the robustness to diverse
-                      inputs through a meticulously designed training strategy. Extensive experiments tell that our
-                      method substantially outperforms existing state-of-the-art approaches and strong baselines. Our
-                      method also finds promising applications in video stabilization, super-resolution, and
-                      outpainting. </p>
-                  </div>
-                </div>
-
-              </div>
-            </li>
-
-          </ol>
 
 
           <!-- <h4 style="margin-top: 30px; margin-bottom: 15px;"><b>(2) 3D Generation & Perception</b></h4> -->
@@ -1197,7 +1202,7 @@
 
   <footer class="home-footer">
     <div class="container mt-0">
-      © Copyright 2022 Xiao Fu.
+      © Copyright 2026 Xiao Fu.
       Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a
         href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
       Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
