@@ -83,6 +83,7 @@ body.home {
 .home .section-note { margin: -6px 0 16px; color: var(--global-text-color-light); font-size: 15px; }
 .home .news-scroll { max-height: 168px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--global-divider-color) transparent; }
 .home .news table td, .home .honors table td { padding: 4px 0; font-size: 14px; font-weight: 400; line-height: 1.5; }
+.home .honors table td { font-size: 14.4px; }
 .home .news table .date { width: 118px; padding-right: 18px; color: var(--global-text-color-light); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .home .news table .announcement { width: auto; padding-right: 16px; }
 .home .honors table .name { width: auto; padding-right: 24px; }
@@ -155,7 +156,6 @@ body.home {
   .home .news table .announcement { padding-right: 8px; font-size: 13px; }
   .home .publications .row { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   .home .publications .col-md-3 { max-width: 220px; }
-  .home .honors table td { font-size: 13px; }
   .home .honors table .date { width: 76px; }
 }
 
