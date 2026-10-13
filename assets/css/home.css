@@ -45,7 +45,7 @@ body.home {
 .home .navbar-brand.social a i::before { color: var(--global-text-color-light); }
 .home .navbar-brand.social .social-icon { width: 24px; height: 24px; color: var(--global-text-color); }
 .home .navbar-brand.social a:hover .social-icon { color: var(--global-theme-color); }
-.home .navbar-nav { align-items: center; gap: 18px; }
+.home .navbar-nav { align-items: center; gap: 12px; }
 .home .navbar .nav-link { font-size: 14px; font-weight: 500; }
 .home .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link { font-weight: 500; }
 .home #light-toggle {
@@ -144,7 +144,7 @@ body.home {
   body.home { font-size: 15px; line-height: 1.6; }
   .home .container { padding-inline: 20px; }
   .home .navbar-brand.social { gap: 16px; }
-  .home .navbar-nav { flex-direction: row; justify-content: flex-end; gap: 20px; padding-top: 12px; }
+  .home .navbar-nav { flex-direction: row; justify-content: flex-end; gap: 12px; padding-top: 12px; }
   .home .post-header { margin-bottom: 16px; }
   .home .intro { display: flow-root; }
   .home .portrait { float: right; margin: 0 0 8px 16px; padding: 0; }
