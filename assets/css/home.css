@@ -33,7 +33,7 @@ body.home {
   -webkit-font-smoothing: antialiased;
 }
 
-.home .container { width: 100%; max-width: 1080px; padding-inline: 32px; }
+.home .container { width: 100%; max-width: 960px; padding-inline: 32px; }
 .home strong { font-weight: 600; }
 .home a { text-underline-offset: 3px; }
 .home a:hover { color: var(--global-hover-color); }
@@ -70,7 +70,7 @@ body.home {
 .home .intro { display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 32px; align-items: start; }
 .home .portrait { grid-column: 2; grid-row: 1; padding-top: 4px; }
 .home .portrait img { display: block; width: 100%; height: auto; border-radius: 8px; }
-.home .biography { grid-column: 1; grid-row: 1; }
+.home .biography { grid-column: 1; grid-row: 1; max-width: 700px; }
 .home .biography p { margin: 0 0 10px; }
 .home .biography .contact-note { margin: 12px 0 0; color: var(--global-text-color-light); font-size: 15px; }
 
@@ -79,6 +79,7 @@ body.home {
   padding-top: 16px;
   border-top: 1px solid var(--global-divider-color);
 }
+.home .news { margin-top: 16px; padding-top: 12px; }
 .home h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.35; font-weight: 600; letter-spacing: -.5px; }
 .home .section-note { margin: -6px 0 16px; color: var(--global-text-color-light); font-size: 15px; }
 .home .news-scroll { max-height: 168px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--global-divider-color) transparent; }
@@ -151,6 +152,7 @@ body.home {
   .home .portrait { float: right; margin: 0 0 8px 16px; padding: 0; }
   .home .portrait img { width: 104px; }
   .home .news, .home .publications, .home .honors { margin-top: 22px; padding-top: 16px; }
+  .home .news { margin-top: 16px; padding-top: 12px; }
   .home h2 { font-size: 20px; }
   .home .news table .date { width: 102px; padding-right: 12px; font-size: 12px; }
   .home .news table .announcement { padding-right: 8px; font-size: 13px; }
