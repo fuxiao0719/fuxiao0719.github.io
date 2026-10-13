@@ -65,7 +65,7 @@ body.home {
 .home .post-header { margin-bottom: 16px; }
 .home .post-title { margin: 0; font-size: clamp(28px, 3.5vw, 34px); font-weight: 600; letter-spacing: -1.2px; line-height: 1.25; }
 .home .name-chinese { margin-left: 10px; color: var(--global-text-color-light); font-size: .8em; font-weight: 400; letter-spacing: .04em; }
-.home .intro { display: grid; grid-template-columns: minmax(0, 1fr) 170px; gap: 32px; align-items: start; }
+.home .intro { display: grid; grid-template-columns: minmax(0, 1fr) 190px; gap: 32px; align-items: start; }
 .home .portrait { grid-column: 2; grid-row: 1; padding-top: 4px; }
 .home .portrait img { display: block; width: 100%; height: auto; border-radius: 8px; }
 .home .biography { grid-column: 1; grid-row: 1; }
@@ -98,7 +98,7 @@ body.home {
 .home .publications .author { color: var(--global-text-color-light); }
 .home .publications ol.bibliography li .author a { color: inherit; border: 0; }
 .home .publications ol.bibliography li .author a:hover { color: var(--global-theme-color); text-decoration: underline; }
-.home .publications u { text-decoration: none; }
+.home .publications u { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .home .publications .periodical { margin-top: 3px; }
 .home .publications .venue { color: var(--global-text-color-light); }
 .home .publications .award { color: var(--global-theme-color); }
@@ -130,7 +130,7 @@ body.home {
 @media (max-width: 767px) {
   .home .container { padding-inline: 24px; }
   .home .home-content { margin-top: 24px; }
-  .home .intro { grid-template-columns: minmax(0, 1fr) 140px; gap: 24px; }
+  .home .intro { grid-template-columns: minmax(0, 1fr) 160px; gap: 24px; }
   .home .publications .row { grid-template-columns: 160px minmax(0, 1fr); gap: 18px; }
 }
 
@@ -142,7 +142,7 @@ body.home {
   .home .post-header { margin-bottom: 16px; }
   .home .intro { display: flow-root; }
   .home .portrait { float: right; margin: 0 0 8px 16px; padding: 0; }
-  .home .portrait img { width: 96px; }
+  .home .portrait img { width: 108px; }
   .home .news, .home .publications, .home .honors { margin-top: 22px; padding-top: 16px; }
   .home h2 { font-size: 20px; }
   .home .news table .date { width: 102px; padding-right: 12px; font-size: 12px; }
